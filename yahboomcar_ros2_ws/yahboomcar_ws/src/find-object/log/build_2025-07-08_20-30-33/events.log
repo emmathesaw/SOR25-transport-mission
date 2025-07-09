@@ -1,0 +1,1252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000761] (find_object_2d) JobQueued: {'identifier': 'find_object_2d', 'dependencies': OrderedDict()}
+[0.000974] (find_object_2d) JobStarted: {'identifier': 'find_object_2d'}
+[0.099657] (-) TimerEvent: {}
+[0.133658] (find_object_2d) JobProgress: {'identifier': 'find_object_2d', 'progress': 'cmake'}
+[0.134052] (find_object_2d) Command: {'cmd': ['/usr/bin/cmake', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d', 'env': OrderedDict([('HOSTNAME', 'robot'), ('GIT_ASKPASS', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/imu_ws/install/rviz_imu_plugin/lib:/root/imu_ws/install/imu_filter_madgwick/lib:/root/imu_ws/install/imu_complementary_filter/lib:/root/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ws/install/robot_localization/lib:/root/gmapping_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7d8bbf8f-d684-4d28-b8c3-11855c08cf1c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ws/install:/root/imu_ws/install:/root/gmapping_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-94a6b447580330f9.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e29eea5f2f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/root/imu_ws/install/imu_tools:/root/imu_ws/install/rviz_imu_plugin:/root/imu_ws/install/imu_filter_madgwick:/root/imu_ws/install/imu_complementary_filter:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ws/install/robot_localization:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/root/gmapping_ws/install/slam_gmapping:/root/gmapping_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d'), ('PYTHONPATH', '/root/yahboomcar_ws/install/yahboomcar_visual/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_nav/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_multi/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_laser/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_description/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_astra/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.10/site-packages:/root/yahboomcar_ws/install/robot_localization/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/laserscan_to_point_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/imu_ws/install/imu_tools:/root/imu_ws/install/rviz_imu_plugin:/root/imu_ws/install/imu_filter_madgwick:/root/imu_ws/install/imu_complementary_filter:/root/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ws/install/robot_localization:/root/gmapping_ws/install/slam_gmapping:/root/gmapping_ws/install/openslam_gmapping:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble')]), 'shell': False}
+[0.199775] (-) TimerEvent: {}
+[0.227153] (find_object_2d) StdoutLine: {'line': b'-- CATKIN_BUILD=FALSE\n'}
+[0.227429] (find_object_2d) StdoutLine: {'line': b'-- COLCON_BUILD=FALSE\n'}
+[0.299880] (-) TimerEvent: {}
+[0.400239] (-) TimerEvent: {}
+[0.500664] (-) TimerEvent: {}
+[0.574849] (find_object_2d) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.600759] (-) TimerEvent: {}
+[0.701102] (-) TimerEvent: {}
+[0.801503] (-) TimerEvent: {}
+[0.864299] (find_object_2d) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.884624] (find_object_2d) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901613] (-) TimerEvent: {}
+[1.001955] (-) TimerEvent: {}
+[1.024351] (find_object_2d) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.036220] (find_object_2d) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.037176] (find_object_2d) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.038540] (find_object_2d) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.045274] (find_object_2d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.102073] (-) TimerEvent: {}
+[1.168785] (find_object_2d) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.179989] (find_object_2d) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.180517] (find_object_2d) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.181241] (find_object_2d) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.202183] (-) TimerEvent: {}
+[1.224662] (find_object_2d) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.260616] (find_object_2d) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX17\n'}
+[1.302307] (-) TimerEvent: {}
+[1.369134] (find_object_2d) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX17 - Success\n'}
+[1.402416] (-) TimerEvent: {}
+[1.464353] (find_object_2d) StdoutLine: {'line': b'-- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND\n'}
+[1.501954] (find_object_2d) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[1.502234] (find_object_2d) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[1.502317] (find_object_2d) StderrLine: {'line': b'  6.\n'}
+[1.502390] (find_object_2d) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.502455] (-) TimerEvent: {}
+[1.502587] (find_object_2d) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[1.502697] (find_object_2d) StderrLine: {'line': b'  app/CMakeLists.txt:74 (QT5_USE_MODULES)\n'}
+[1.502787] (find_object_2d) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.502858] (find_object_2d) StderrLine: {'line': b'\x1b[0m\n'}
+[1.505520] (find_object_2d) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[1.505721] (find_object_2d) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[1.505796] (find_object_2d) StderrLine: {'line': b'  6.\n'}
+[1.505861] (find_object_2d) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.505928] (find_object_2d) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[1.505998] (find_object_2d) StderrLine: {'line': b'  tools/tcpClient/CMakeLists.txt:41 (QT5_USE_MODULES)\n'}
+[1.506062] (find_object_2d) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.506133] (find_object_2d) StderrLine: {'line': b'\x1b[0m\n'}
+[1.508208] (find_object_2d) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[1.508458] (find_object_2d) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[1.508537] (find_object_2d) StderrLine: {'line': b'  6.\n'}
+[1.508606] (find_object_2d) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.508674] (find_object_2d) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[1.508742] (find_object_2d) StderrLine: {'line': b'  tools/tcpImagesServer/CMakeLists.txt:41 (QT5_USE_MODULES)\n'}
+[1.508808] (find_object_2d) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.508872] (find_object_2d) StderrLine: {'line': b'\x1b[0m\n'}
+[1.511184] (find_object_2d) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[1.511429] (find_object_2d) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[1.511584] (find_object_2d) StderrLine: {'line': b'  6.\n'}
+[1.511675] (find_object_2d) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.511754] (find_object_2d) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[1.511845] (find_object_2d) StderrLine: {'line': b'  tools/tcpRequest/CMakeLists.txt:42 (QT5_USE_MODULES)\n'}
+[1.511962] (find_object_2d) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.512048] (find_object_2d) StderrLine: {'line': b'\x1b[0m\n'}
+[1.513519] (find_object_2d) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[1.513792] (find_object_2d) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[1.513921] (find_object_2d) StderrLine: {'line': b'  6.\n'}
+[1.514018] (find_object_2d) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.514129] (find_object_2d) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[1.514226] (find_object_2d) StderrLine: {'line': b'  tools/tcpService/CMakeLists.txt:29 (QT5_USE_MODULES)\n'}
+[1.514313] (find_object_2d) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.514394] (find_object_2d) StderrLine: {'line': b'\x1b[0m\n'}
+[1.516410] (find_object_2d) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[1.516690] (find_object_2d) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[1.516783] (find_object_2d) StderrLine: {'line': b'  6.\n'}
+[1.516857] (find_object_2d) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.516933] (find_object_2d) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[1.516999] (find_object_2d) StderrLine: {'line': b'  example/CMakeLists.txt:29 (QT5_USE_MODULES)\n'}
+[1.517069] (find_object_2d) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.517155] (find_object_2d) StderrLine: {'line': b'\x1b[0m\n'}
+[1.542871] (find_object_2d) StdoutLine: {'line': b'-- --------------------------------------------\n'}
+[1.543120] (find_object_2d) StdoutLine: {'line': b'-- Info :\n'}
+[1.543214] (find_object_2d) StdoutLine: {'line': b'--   CMAKE_INSTALL_PREFIX = /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d\n'}
+[1.543289] (find_object_2d) StdoutLine: {'line': b'--   CMAKE_BUILD_TYPE = Release\n'}
+[1.543356] (find_object_2d) StdoutLine: {'line': b'--   PROJECT_VERSION = 0.7.4\n'}
+[1.543421] (find_object_2d) StdoutLine: {'line': b'--   With OpenCV 4.5.4 xfeatures2d module (BRIEF/FREAK/KAZE) = NO (not found)\n'}
+[1.543511] (find_object_2d) StdoutLine: {'line': b'--   With OpenCV 4.5.4 nonfree module (SURF) = NO\n'}
+[1.543592] (find_object_2d) StdoutLine: {'line': b'--   With Qt5 = YES\n'}
+[1.543659] (find_object_2d) StdoutLine: {'line': b'--   With tcmalloc = NO (tcmalloc not found)\n'}
+[1.543724] (find_object_2d) StdoutLine: {'line': b'--   With Torch = NO (libtorch not found)\n'}
+[1.543787] (find_object_2d) StdoutLine: {'line': b'-- --------------------------------------------\n'}
+[1.543906] (find_object_2d) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.602584] (-) TimerEvent: {}
+[1.669492] (find_object_2d) StdoutLine: {'line': b'-- Generating done\n'}
+[1.672145] (find_object_2d) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.672315] (find_object_2d) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.672440] (find_object_2d) StderrLine: {'line': b'\n'}
+[1.672522] (find_object_2d) StderrLine: {'line': b'    AMENT_CMAKE_SYMLINK_INSTALL\n'}
+[1.672596] (find_object_2d) StderrLine: {'line': b'\n'}
+[1.672677] (find_object_2d) StderrLine: {'line': b'\x1b[0m\n'}
+[1.672832] (find_object_2d) StdoutLine: {'line': b'-- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d\n'}
+[1.687852] (find_object_2d) CommandEnded: {'returncode': 0}
+[1.688724] (find_object_2d) JobProgress: {'identifier': 'find_object_2d', 'progress': 'build'}
+[1.689527] (find_object_2d) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d', '--', '-j4', '-l4'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d', 'env': OrderedDict([('HOSTNAME', 'robot'), ('GIT_ASKPASS', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/imu_ws/install/rviz_imu_plugin/lib:/root/imu_ws/install/imu_filter_madgwick/lib:/root/imu_ws/install/imu_complementary_filter/lib:/root/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ws/install/robot_localization/lib:/root/gmapping_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7d8bbf8f-d684-4d28-b8c3-11855c08cf1c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ws/install:/root/imu_ws/install:/root/gmapping_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-94a6b447580330f9.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e29eea5f2f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/root/imu_ws/install/imu_tools:/root/imu_ws/install/rviz_imu_plugin:/root/imu_ws/install/imu_filter_madgwick:/root/imu_ws/install/imu_complementary_filter:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ws/install/robot_localization:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/root/gmapping_ws/install/slam_gmapping:/root/gmapping_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d'), ('PYTHONPATH', '/root/yahboomcar_ws/install/yahboomcar_visual/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_nav/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_multi/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_laser/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_description/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_astra/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.10/site-packages:/root/yahboomcar_ws/install/robot_localization/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/laserscan_to_point_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/imu_ws/install/imu_tools:/root/imu_ws/install/rviz_imu_plugin:/root/imu_ws/install/imu_filter_madgwick:/root/imu_ws/install/imu_complementary_filter:/root/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ws/install/robot_localization:/root/gmapping_ws/install/slam_gmapping:/root/gmapping_ws/install/openslam_gmapping:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble')]), 'shell': False}
+[1.702697] (-) TimerEvent: {}
+[1.746904] (find_object_2d) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating moc_TcpClient.cpp\x1b[0m\n'}
+[1.747536] (find_object_2d) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating utilite/moc_UPlot.cpp\x1b[0m\n'}
+[1.748617] (find_object_2d) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating __/include/find_object/moc_Camera.cpp\x1b[0m\n'}
+[1.751869] (find_object_2d) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating __/include/find_object/moc_FindObject.cpp\x1b[0m\n'}
+[1.782417] (find_object_2d) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating __/include/find_object/moc_ObjWidget.cpp\x1b[0m\n'}
+[1.783989] (find_object_2d) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating __/include/find_object/moc_TcpServer.cpp\x1b[0m\n'}
+[1.791911] (find_object_2d) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating __/include/find_object/moc_MainWindow.cpp\x1b[0m\n'}
+[1.802462] (find_object_2d) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/TcpClient.cpp.o\x1b[0m\n'}
+[1.802841] (-) TimerEvent: {}
+[1.816214] (find_object_2d) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating moc_AboutDialog.cpp\x1b[0m\n'}
+[1.818345] (find_object_2d) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/main.cpp.o\x1b[0m\n'}
+[1.827853] (find_object_2d) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating moc_AddObjectDialog.cpp\x1b[0m\n'}
+[1.836959] (find_object_2d) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/moc_TcpClient.cpp.o\x1b[0m\n'}
+[1.847444] (find_object_2d) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating moc_CameraTcpServer.cpp\x1b[0m\n'}
+[1.871076] (find_object_2d) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating moc_ImageDropWidget.cpp\x1b[0m\n'}
+[1.890339] (find_object_2d) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating moc_ParametersToolBox.cpp\x1b[0m\n'}
+[1.902976] (-) TimerEvent: {}
+[1.912701] (find_object_2d) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating moc_RectItem.cpp\x1b[0m\n'}
+[1.933124] (find_object_2d) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating qrc_resources.cpp\x1b[0m\n'}
+[1.970929] (find_object_2d) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating rtabmap/moc_PdfPlot.cpp\x1b[0m\n'}
+[2.003214] (-) TimerEvent: {}
+[2.003918] (find_object_2d) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating ui_aboutDialog.h\x1b[0m\n'}
+[2.103339] (-) TimerEvent: {}
+[2.199052] (find_object_2d) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating ui_addObjectDialog.h\x1b[0m\n'}
+[2.203468] (-) TimerEvent: {}
+[2.226877] (find_object_2d) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating ui_mainWindow.h\x1b[0m\n'}
+[2.283954] (find_object_2d) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/MainWindow.cpp.o\x1b[0m\n'}
+[2.303670] (-) TimerEvent: {}
+[2.404153] (-) TimerEvent: {}
+[2.504629] (-) TimerEvent: {}
+[2.605095] (-) TimerEvent: {}
+[2.705554] (-) TimerEvent: {}
+[2.806069] (-) TimerEvent: {}
+[2.906674] (-) TimerEvent: {}
+[3.007104] (-) TimerEvent: {}
+[3.107580] (-) TimerEvent: {}
+[3.208085] (-) TimerEvent: {}
+[3.308671] (-) TimerEvent: {}
+[3.409147] (-) TimerEvent: {}
+[3.509649] (-) TimerEvent: {}
+[3.610173] (-) TimerEvent: {}
+[3.710688] (-) TimerEvent: {}
+[3.811201] (-) TimerEvent: {}
+[3.911677] (-) TimerEvent: {}
+[4.012211] (-) TimerEvent: {}
+[4.112681] (-) TimerEvent: {}
+[4.173138] (find_object_2d) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/AddObjectDialog.cpp.o\x1b[0m\n'}
+[4.212817] (-) TimerEvent: {}
+[4.313444] (-) TimerEvent: {}
+[4.351813] (find_object_2d) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/KeypointItem.cpp.o\x1b[0m\n'}
+[4.413502] (-) TimerEvent: {}
+[4.514262] (-) TimerEvent: {}
+[4.614714] (-) TimerEvent: {}
+[4.715212] (-) TimerEvent: {}
+[4.815681] (-) TimerEvent: {}
+[4.916149] (-) TimerEvent: {}
+[5.016723] (-) TimerEvent: {}
+[5.117243] (-) TimerEvent: {}
+[5.217715] (-) TimerEvent: {}
+[5.318255] (-) TimerEvent: {}
+[5.418750] (-) TimerEvent: {}
+[5.519297] (-) TimerEvent: {}
+[5.619769] (-) TimerEvent: {}
+[5.720277] (-) TimerEvent: {}
+[5.820796] (-) TimerEvent: {}
+[5.921265] (-) TimerEvent: {}
+[6.021711] (-) TimerEvent: {}
+[6.122190] (-) TimerEvent: {}
+[6.222720] (-) TimerEvent: {}
+[6.323210] (-) TimerEvent: {}
+[6.423662] (-) TimerEvent: {}
+[6.524224] (-) TimerEvent: {}
+[6.624712] (-) TimerEvent: {}
+[6.725245] (-) TimerEvent: {}
+[6.825739] (-) TimerEvent: {}
+[6.926242] (-) TimerEvent: {}
+[7.026725] (-) TimerEvent: {}
+[7.127201] (-) TimerEvent: {}
+[7.227730] (-) TimerEvent: {}
+[7.328276] (-) TimerEvent: {}
+[7.428821] (-) TimerEvent: {}
+[7.529310] (-) TimerEvent: {}
+[7.629831] (-) TimerEvent: {}
+[7.730414] (-) TimerEvent: {}
+[7.830908] (-) TimerEvent: {}
+[7.931383] (-) TimerEvent: {}
+[8.031871] (-) TimerEvent: {}
+[8.132409] (-) TimerEvent: {}
+[8.232857] (-) TimerEvent: {}
+[8.333304] (-) TimerEvent: {}
+[8.433819] (-) TimerEvent: {}
+[8.496004] (find_object_2d) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/RectItem.cpp.o\x1b[0m\n'}
+[8.533952] (-) TimerEvent: {}
+[8.634458] (-) TimerEvent: {}
+[8.734941] (-) TimerEvent: {}
+[8.835421] (-) TimerEvent: {}
+[8.935936] (-) TimerEvent: {}
+[9.036497] (-) TimerEvent: {}
+[9.136998] (-) TimerEvent: {}
+[9.237541] (-) TimerEvent: {}
+[9.338093] (-) TimerEvent: {}
+[9.438609] (-) TimerEvent: {}
+[9.539109] (-) TimerEvent: {}
+[9.639708] (-) TimerEvent: {}
+[9.740221] (-) TimerEvent: {}
+[9.840766] (-) TimerEvent: {}
+[9.941302] (-) TimerEvent: {}
+[10.041800] (-) TimerEvent: {}
+[10.142345] (-) TimerEvent: {}
+[10.242864] (-) TimerEvent: {}
+[10.343393] (-) TimerEvent: {}
+[10.443990] (-) TimerEvent: {}
+[10.544657] (-) TimerEvent: {}
+[10.645178] (-) TimerEvent: {}
+[10.745665] (-) TimerEvent: {}
+[10.846172] (-) TimerEvent: {}
+[10.946939] (-) TimerEvent: {}
+[11.047617] (-) TimerEvent: {}
+[11.148234] (-) TimerEvent: {}
+[11.248810] (-) TimerEvent: {}
+[11.349625] (-) TimerEvent: {}
+[11.358643] (find_object_2d) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/QtOpenCV.cpp.o\x1b[0m\n'}
+[11.449763] (-) TimerEvent: {}
+[11.550228] (-) TimerEvent: {}
+[11.650692] (-) TimerEvent: {}
+[11.723354] (find_object_2d) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/find_object-tcpClient\x1b[0m\n'}
+[11.750837] (-) TimerEvent: {}
+[11.851382] (-) TimerEvent: {}
+[11.952067] (-) TimerEvent: {}
+[12.052949] (-) TimerEvent: {}
+[12.153668] (-) TimerEvent: {}
+[12.254312] (-) TimerEvent: {}
+[12.354908] (-) TimerEvent: {}
+[12.455404] (-) TimerEvent: {}
+[12.555906] (-) TimerEvent: {}
+[12.656515] (-) TimerEvent: {}
+[12.694935] (find_object_2d) StdoutLine: {'line': b'[ 34%] Built target tcpClient\n'}
+[12.717359] (find_object_2d) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/Camera.cpp.o\x1b[0m\n'}
+[12.756648] (-) TimerEvent: {}
+[12.857149] (-) TimerEvent: {}
+[12.957679] (-) TimerEvent: {}
+[13.058240] (-) TimerEvent: {}
+[13.158689] (-) TimerEvent: {}
+[13.259362] (-) TimerEvent: {}
+[13.359948] (-) TimerEvent: {}
+[13.460743] (-) TimerEvent: {}
+[13.561373] (-) TimerEvent: {}
+[13.626838] (find_object_2d) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/CameraTcpServer.cpp.o\x1b[0m\n'}
+[13.661564] (-) TimerEvent: {}
+[13.762404] (-) TimerEvent: {}
+[13.863614] (-) TimerEvent: {}
+[13.964137] (-) TimerEvent: {}
+[14.064868] (-) TimerEvent: {}
+[14.165599] (-) TimerEvent: {}
+[14.266266] (-) TimerEvent: {}
+[14.366795] (-) TimerEvent: {}
+[14.467492] (-) TimerEvent: {}
+[14.567998] (-) TimerEvent: {}
+[14.668869] (-) TimerEvent: {}
+[14.769726] (-) TimerEvent: {}
+[14.870462] (-) TimerEvent: {}
+[14.970960] (-) TimerEvent: {}
+[15.071611] (-) TimerEvent: {}
+[15.172188] (-) TimerEvent: {}
+[15.272781] (-) TimerEvent: {}
+[15.373465] (-) TimerEvent: {}
+[15.474069] (-) TimerEvent: {}
+[15.574713] (-) TimerEvent: {}
+[15.649618] (find_object_2d) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/ParametersToolBox.cpp.o\x1b[0m\n'}
+[15.674905] (-) TimerEvent: {}
+[15.775384] (-) TimerEvent: {}
+[15.876404] (-) TimerEvent: {}
+[15.978097] (-) TimerEvent: {}
+[16.078638] (-) TimerEvent: {}
+[16.179129] (-) TimerEvent: {}
+[16.279695] (-) TimerEvent: {}
+[16.380448] (-) TimerEvent: {}
+[16.481025] (-) TimerEvent: {}
+[16.581579] (-) TimerEvent: {}
+[16.682116] (-) TimerEvent: {}
+[16.782772] (-) TimerEvent: {}
+[16.883303] (-) TimerEvent: {}
+[16.983833] (-) TimerEvent: {}
+[17.084437] (-) TimerEvent: {}
+[17.184935] (-) TimerEvent: {}
+[17.285450] (-) TimerEvent: {}
+[17.385988] (-) TimerEvent: {}
+[17.486687] (-) TimerEvent: {}
+[17.587287] (-) TimerEvent: {}
+[17.687913] (-) TimerEvent: {}
+[17.788612] (-) TimerEvent: {}
+[17.889212] (-) TimerEvent: {}
+[17.989773] (-) TimerEvent: {}
+[18.090283] (-) TimerEvent: {}
+[18.191111] (-) TimerEvent: {}
+[18.291803] (-) TimerEvent: {}
+[18.392484] (-) TimerEvent: {}
+[18.493019] (-) TimerEvent: {}
+[18.593566] (-) TimerEvent: {}
+[18.694038] (-) TimerEvent: {}
+[18.794624] (-) TimerEvent: {}
+[18.895203] (-) TimerEvent: {}
+[18.995749] (-) TimerEvent: {}
+[19.096420] (-) TimerEvent: {}
+[19.196976] (-) TimerEvent: {}
+[19.297531] (-) TimerEvent: {}
+[19.398050] (-) TimerEvent: {}
+[19.498577] (-) TimerEvent: {}
+[19.599128] (-) TimerEvent: {}
+[19.699658] (-) TimerEvent: {}
+[19.800268] (-) TimerEvent: {}
+[19.900816] (-) TimerEvent: {}
+[20.001509] (-) TimerEvent: {}
+[20.102091] (-) TimerEvent: {}
+[20.202656] (-) TimerEvent: {}
+[20.303182] (-) TimerEvent: {}
+[20.403720] (-) TimerEvent: {}
+[20.504299] (-) TimerEvent: {}
+[20.604881] (-) TimerEvent: {}
+[20.705411] (-) TimerEvent: {}
+[20.805895] (-) TimerEvent: {}
+[20.906441] (-) TimerEvent: {}
+[21.006904] (-) TimerEvent: {}
+[21.107564] (-) TimerEvent: {}
+[21.158705] (find_object_2d) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/Settings.cpp.o\x1b[0m\n'}
+[21.207698] (-) TimerEvent: {}
+[21.308265] (-) TimerEvent: {}
+[21.408739] (-) TimerEvent: {}
+[21.509278] (-) TimerEvent: {}
+[21.609800] (-) TimerEvent: {}
+[21.686064] (find_object_2d) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/ObjWidget.cpp.o\x1b[0m\n'}
+[21.709946] (-) TimerEvent: {}
+[21.810514] (-) TimerEvent: {}
+[21.911037] (-) TimerEvent: {}
+[22.011584] (-) TimerEvent: {}
+[22.112173] (-) TimerEvent: {}
+[22.213038] (-) TimerEvent: {}
+[22.313615] (-) TimerEvent: {}
+[22.414098] (-) TimerEvent: {}
+[22.514668] (-) TimerEvent: {}
+[22.615223] (-) TimerEvent: {}
+[22.715764] (-) TimerEvent: {}
+[22.816498] (-) TimerEvent: {}
+[22.917511] (-) TimerEvent: {}
+[23.018935] (-) TimerEvent: {}
+[23.119557] (-) TimerEvent: {}
+[23.200319] (find_object_2d) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/ImageDropWidget.cpp.o\x1b[0m\n'}
+[23.219703] (-) TimerEvent: {}
+[23.320268] (-) TimerEvent: {}
+[23.420768] (-) TimerEvent: {}
+[23.521295] (-) TimerEvent: {}
+[23.621888] (-) TimerEvent: {}
+[23.722560] (-) TimerEvent: {}
+[23.823044] (-) TimerEvent: {}
+[23.923720] (-) TimerEvent: {}
+[24.024400] (-) TimerEvent: {}
+[24.124864] (-) TimerEvent: {}
+[24.225547] (-) TimerEvent: {}
+[24.326021] (-) TimerEvent: {}
+[24.426599] (-) TimerEvent: {}
+[24.527160] (-) TimerEvent: {}
+[24.627700] (-) TimerEvent: {}
+[24.728440] (-) TimerEvent: {}
+[24.828931] (-) TimerEvent: {}
+[24.929465] (-) TimerEvent: {}
+[25.030023] (-) TimerEvent: {}
+[25.130803] (-) TimerEvent: {}
+[25.231812] (-) TimerEvent: {}
+[25.332737] (-) TimerEvent: {}
+[25.433237] (-) TimerEvent: {}
+[25.533746] (-) TimerEvent: {}
+[25.634247] (-) TimerEvent: {}
+[25.734740] (-) TimerEvent: {}
+[25.835229] (-) TimerEvent: {}
+[25.935766] (-) TimerEvent: {}
+[26.036316] (-) TimerEvent: {}
+[26.136814] (-) TimerEvent: {}
+[26.237340] (-) TimerEvent: {}
+[26.337856] (-) TimerEvent: {}
+[26.381781] (find_object_2d) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/FindObject.cpp.o\x1b[0m\n'}
+[26.438003] (-) TimerEvent: {}
+[26.538602] (-) TimerEvent: {}
+[26.639166] (-) TimerEvent: {}
+[26.739847] (-) TimerEvent: {}
+[26.840636] (-) TimerEvent: {}
+[26.941457] (-) TimerEvent: {}
+[27.041981] (-) TimerEvent: {}
+[27.142506] (-) TimerEvent: {}
+[27.243032] (-) TimerEvent: {}
+[27.343541] (-) TimerEvent: {}
+[27.444128] (-) TimerEvent: {}
+[27.544749] (-) TimerEvent: {}
+[27.645283] (-) TimerEvent: {}
+[27.745779] (-) TimerEvent: {}
+[27.846273] (-) TimerEvent: {}
+[27.946795] (-) TimerEvent: {}
+[28.047295] (-) TimerEvent: {}
+[28.147927] (-) TimerEvent: {}
+[28.248577] (-) TimerEvent: {}
+[28.252409] (find_object_2d) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/AboutDialog.cpp.o\x1b[0m\n'}
+[28.348721] (-) TimerEvent: {}
+[28.449396] (-) TimerEvent: {}
+[28.549901] (-) TimerEvent: {}
+[28.650456] (-) TimerEvent: {}
+[28.750970] (-) TimerEvent: {}
+[28.851503] (-) TimerEvent: {}
+[28.952051] (-) TimerEvent: {}
+[29.052821] (-) TimerEvent: {}
+[29.153457] (-) TimerEvent: {}
+[29.254062] (-) TimerEvent: {}
+[29.354774] (-) TimerEvent: {}
+[29.429471] (find_object_2d) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/TcpServer.cpp.o\x1b[0m\n'}
+[29.454921] (-) TimerEvent: {}
+[29.555604] (-) TimerEvent: {}
+[29.656198] (-) TimerEvent: {}
+[29.757664] (-) TimerEvent: {}
+[29.858343] (-) TimerEvent: {}
+[29.958893] (-) TimerEvent: {}
+[30.059409] (-) TimerEvent: {}
+[30.160027] (-) TimerEvent: {}
+[30.260638] (-) TimerEvent: {}
+[30.361209] (-) TimerEvent: {}
+[30.461656] (-) TimerEvent: {}
+[30.562180] (-) TimerEvent: {}
+[30.662640] (-) TimerEvent: {}
+[30.763156] (-) TimerEvent: {}
+[30.863616] (-) TimerEvent: {}
+[30.964072] (-) TimerEvent: {}
+[31.064591] (-) TimerEvent: {}
+[31.165061] (-) TimerEvent: {}
+[31.265714] (-) TimerEvent: {}
+[31.366236] (-) TimerEvent: {}
+[31.466702] (-) TimerEvent: {}
+[31.567220] (-) TimerEvent: {}
+[31.667769] (-) TimerEvent: {}
+[31.668470] (find_object_2d) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/Vocabulary.cpp.o\x1b[0m\n'}
+[31.767901] (-) TimerEvent: {}
+[31.868431] (-) TimerEvent: {}
+[31.968941] (-) TimerEvent: {}
+[32.069405] (-) TimerEvent: {}
+[32.169923] (-) TimerEvent: {}
+[32.270383] (-) TimerEvent: {}
+[32.370889] (-) TimerEvent: {}
+[32.471506] (-) TimerEvent: {}
+[32.572056] (-) TimerEvent: {}
+[32.672650] (-) TimerEvent: {}
+[32.773177] (-) TimerEvent: {}
+[32.873760] (-) TimerEvent: {}
+[32.974319] (-) TimerEvent: {}
+[33.074824] (-) TimerEvent: {}
+[33.175362] (-) TimerEvent: {}
+[33.276015] (-) TimerEvent: {}
+[33.376543] (-) TimerEvent: {}
+[33.477022] (-) TimerEvent: {}
+[33.577505] (-) TimerEvent: {}
+[33.679839] (-) TimerEvent: {}
+[33.780404] (-) TimerEvent: {}
+[33.880951] (-) TimerEvent: {}
+[33.987110] (-) TimerEvent: {}
+[34.088427] (-) TimerEvent: {}
+[34.188915] (-) TimerEvent: {}
+[34.289512] (-) TimerEvent: {}
+[34.390062] (-) TimerEvent: {}
+[34.490561] (-) TimerEvent: {}
+[34.591054] (-) TimerEvent: {}
+[34.691605] (-) TimerEvent: {}
+[34.792088] (-) TimerEvent: {}
+[34.892652] (-) TimerEvent: {}
+[34.993107] (-) TimerEvent: {}
+[35.093615] (-) TimerEvent: {}
+[35.194209] (-) TimerEvent: {}
+[35.295030] (-) TimerEvent: {}
+[35.395513] (-) TimerEvent: {}
+[35.496026] (-) TimerEvent: {}
+[35.596607] (-) TimerEvent: {}
+[35.697312] (-) TimerEvent: {}
+[35.797906] (-) TimerEvent: {}
+[35.898458] (-) TimerEvent: {}
+[35.999001] (-) TimerEvent: {}
+[36.099650] (-) TimerEvent: {}
+[36.200198] (-) TimerEvent: {}
+[36.300722] (-) TimerEvent: {}
+[36.401184] (-) TimerEvent: {}
+[36.433409] (find_object_2d) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/JsonWriter.cpp.o\x1b[0m\n'}
+[36.501372] (-) TimerEvent: {}
+[36.561238] (find_object_2d) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/ULogger.cpp.o\x1b[0m\n'}
+[36.601496] (-) TimerEvent: {}
+[36.701969] (-) TimerEvent: {}
+[36.802733] (-) TimerEvent: {}
+[36.903338] (-) TimerEvent: {}
+[37.003839] (-) TimerEvent: {}
+[37.104401] (-) TimerEvent: {}
+[37.204936] (-) TimerEvent: {}
+[37.305560] (-) TimerEvent: {}
+[37.406074] (-) TimerEvent: {}
+[37.506619] (-) TimerEvent: {}
+[37.607129] (-) TimerEvent: {}
+[37.707674] (-) TimerEvent: {}
+[37.808345] (-) TimerEvent: {}
+[37.908893] (-) TimerEvent: {}
+[38.009429] (-) TimerEvent: {}
+[38.109927] (-) TimerEvent: {}
+[38.210558] (-) TimerEvent: {}
+[38.282481] (find_object_2d) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UPlot.cpp.o\x1b[0m\n'}
+[38.310681] (-) TimerEvent: {}
+[38.411145] (-) TimerEvent: {}
+[38.511660] (-) TimerEvent: {}
+[38.612218] (-) TimerEvent: {}
+[38.712717] (-) TimerEvent: {}
+[38.813197] (-) TimerEvent: {}
+[38.913703] (-) TimerEvent: {}
+[39.014214] (-) TimerEvent: {}
+[39.114710] (-) TimerEvent: {}
+[39.215206] (-) TimerEvent: {}
+[39.315835] (-) TimerEvent: {}
+[39.416303] (-) TimerEvent: {}
+[39.516801] (-) TimerEvent: {}
+[39.617376] (-) TimerEvent: {}
+[39.717894] (-) TimerEvent: {}
+[39.818379] (-) TimerEvent: {}
+[39.919068] (-) TimerEvent: {}
+[40.019524] (-) TimerEvent: {}
+[40.120052] (-) TimerEvent: {}
+[40.220582] (-) TimerEvent: {}
+[40.321076] (-) TimerEvent: {}
+[40.421607] (-) TimerEvent: {}
+[40.522185] (-) TimerEvent: {}
+[40.622849] (-) TimerEvent: {}
+[40.723447] (-) TimerEvent: {}
+[40.824055] (-) TimerEvent: {}
+[40.924575] (-) TimerEvent: {}
+[41.025146] (-) TimerEvent: {}
+[41.125830] (-) TimerEvent: {}
+[41.225294] (find_object_2d) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UDirectory.cpp.o\x1b[0m\n'}
+[41.225916] (-) TimerEvent: {}
+[41.326342] (-) TimerEvent: {}
+[41.426828] (-) TimerEvent: {}
+[41.527363] (-) TimerEvent: {}
+[41.627870] (-) TimerEvent: {}
+[41.659671] (find_object_2d) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UFile.cpp.o\x1b[0m\n'}
+[41.728005] (-) TimerEvent: {}
+[41.828504] (-) TimerEvent: {}
+[41.929066] (-) TimerEvent: {}
+[42.029586] (-) TimerEvent: {}
+[42.130227] (-) TimerEvent: {}
+[42.230738] (-) TimerEvent: {}
+[42.331264] (-) TimerEvent: {}
+[42.431783] (-) TimerEvent: {}
+[42.532393] (-) TimerEvent: {}
+[42.632918] (-) TimerEvent: {}
+[42.733371] (-) TimerEvent: {}
+[42.833866] (-) TimerEvent: {}
+[42.942112] (-) TimerEvent: {}
+[43.042653] (-) TimerEvent: {}
+[43.131507] (find_object_2d) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UConversion.cpp.o\x1b[0m\n'}
+[43.142797] (-) TimerEvent: {}
+[43.243367] (-) TimerEvent: {}
+[43.343913] (-) TimerEvent: {}
+[43.354332] (find_object_2d) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/rtabmap/PdfPlot.cpp.o\x1b[0m\n'}
+[43.444086] (-) TimerEvent: {}
+[43.544759] (-) TimerEvent: {}
+[43.645257] (-) TimerEvent: {}
+[43.745821] (-) TimerEvent: {}
+[43.846337] (-) TimerEvent: {}
+[43.946828] (-) TimerEvent: {}
+[44.047397] (-) TimerEvent: {}
+[44.148135] (-) TimerEvent: {}
+[44.248673] (-) TimerEvent: {}
+[44.349094] (-) TimerEvent: {}
+[44.449559] (-) TimerEvent: {}
+[44.550064] (-) TimerEvent: {}
+[44.578797] (find_object_2d) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/json/jsoncpp.cpp.o\x1b[0m\n'}
+[44.650327] (-) TimerEvent: {}
+[44.750909] (-) TimerEvent: {}
+[44.851413] (-) TimerEvent: {}
+[44.951919] (-) TimerEvent: {}
+[45.052484] (-) TimerEvent: {}
+[45.152987] (-) TimerEvent: {}
+[45.253530] (-) TimerEvent: {}
+[45.353991] (-) TimerEvent: {}
+[45.454561] (-) TimerEvent: {}
+[45.555086] (-) TimerEvent: {}
+[45.655627] (-) TimerEvent: {}
+[45.756208] (-) TimerEvent: {}
+[45.856841] (-) TimerEvent: {}
+[45.957466] (-) TimerEvent: {}
+[46.015325] (find_object_2d) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/Compression.cpp.o\x1b[0m\n'}
+[46.057602] (-) TimerEvent: {}
+[46.158120] (-) TimerEvent: {}
+[46.258670] (-) TimerEvent: {}
+[46.327499] (find_object_2d) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_MainWindow.cpp.o\x1b[0m\n'}
+[46.358802] (-) TimerEvent: {}
+[46.459438] (-) TimerEvent: {}
+[46.493282] (find_object_2d) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_FindObject.cpp.o\x1b[0m\n'}
+[46.559529] (-) TimerEvent: {}
+[46.660071] (-) TimerEvent: {}
+[46.760559] (-) TimerEvent: {}
+[46.861095] (-) TimerEvent: {}
+[46.961704] (-) TimerEvent: {}
+[47.062204] (-) TimerEvent: {}
+[47.162737] (-) TimerEvent: {}
+[47.263233] (-) TimerEvent: {}
+[47.363820] (-) TimerEvent: {}
+[47.464335] (-) TimerEvent: {}
+[47.564890] (-) TimerEvent: {}
+[47.665423] (-) TimerEvent: {}
+[47.765971] (-) TimerEvent: {}
+[47.866462] (-) TimerEvent: {}
+[47.966974] (-) TimerEvent: {}
+[48.067550] (-) TimerEvent: {}
+[48.168128] (-) TimerEvent: {}
+[48.268617] (-) TimerEvent: {}
+[48.369172] (-) TimerEvent: {}
+[48.469646] (-) TimerEvent: {}
+[48.570119] (-) TimerEvent: {}
+[48.670699] (-) TimerEvent: {}
+[48.771214] (-) TimerEvent: {}
+[48.871738] (-) TimerEvent: {}
+[48.972308] (-) TimerEvent: {}
+[49.072842] (-) TimerEvent: {}
+[49.173362] (-) TimerEvent: {}
+[49.273907] (-) TimerEvent: {}
+[49.374509] (-) TimerEvent: {}
+[49.474971] (-) TimerEvent: {}
+[49.575465] (-) TimerEvent: {}
+[49.675988] (-) TimerEvent: {}
+[49.776541] (-) TimerEvent: {}
+[49.877130] (-) TimerEvent: {}
+[49.977622] (-) TimerEvent: {}
+[50.078110] (-) TimerEvent: {}
+[50.178633] (-) TimerEvent: {}
+[50.279190] (-) TimerEvent: {}
+[50.379712] (-) TimerEvent: {}
+[50.480220] (-) TimerEvent: {}
+[50.580701] (-) TimerEvent: {}
+[50.650311] (find_object_2d) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_Camera.cpp.o\x1b[0m\n'}
+[50.680832] (-) TimerEvent: {}
+[50.781459] (-) TimerEvent: {}
+[50.882042] (-) TimerEvent: {}
+[50.982479] (-) TimerEvent: {}
+[51.073667] (find_object_2d) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_TcpServer.cpp.o\x1b[0m\n'}
+[51.082648] (-) TimerEvent: {}
+[51.183233] (-) TimerEvent: {}
+[51.283807] (-) TimerEvent: {}
+[51.384356] (-) TimerEvent: {}
+[51.484854] (-) TimerEvent: {}
+[51.585339] (-) TimerEvent: {}
+[51.685869] (-) TimerEvent: {}
+[51.786448] (-) TimerEvent: {}
+[51.887002] (-) TimerEvent: {}
+[51.987583] (-) TimerEvent: {}
+[52.088094] (-) TimerEvent: {}
+[52.188653] (-) TimerEvent: {}
+[52.289167] (-) TimerEvent: {}
+[52.385699] (find_object_2d) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_ObjWidget.cpp.o\x1b[0m\n'}
+[52.389299] (-) TimerEvent: {}
+[52.489820] (-) TimerEvent: {}
+[52.590338] (-) TimerEvent: {}
+[52.690837] (-) TimerEvent: {}
+[52.791313] (-) TimerEvent: {}
+[52.891797] (-) TimerEvent: {}
+[52.992302] (-) TimerEvent: {}
+[53.090987] (find_object_2d) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_AddObjectDialog.cpp.o\x1b[0m\n'}
+[53.092456] (-) TimerEvent: {}
+[53.192927] (-) TimerEvent: {}
+[53.293437] (-) TimerEvent: {}
+[53.393987] (-) TimerEvent: {}
+[53.494503] (-) TimerEvent: {}
+[53.595027] (-) TimerEvent: {}
+[53.695638] (-) TimerEvent: {}
+[53.796195] (-) TimerEvent: {}
+[53.896704] (-) TimerEvent: {}
+[53.997337] (-) TimerEvent: {}
+[54.001778] (find_object_2d) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_CameraTcpServer.cpp.o\x1b[0m\n'}
+[54.097471] (-) TimerEvent: {}
+[54.197970] (-) TimerEvent: {}
+[54.298518] (-) TimerEvent: {}
+[54.399020] (-) TimerEvent: {}
+[54.499579] (-) TimerEvent: {}
+[54.600152] (-) TimerEvent: {}
+[54.700715] (-) TimerEvent: {}
+[54.801271] (-) TimerEvent: {}
+[54.901744] (-) TimerEvent: {}
+[55.002234] (-) TimerEvent: {}
+[55.102766] (-) TimerEvent: {}
+[55.203280] (-) TimerEvent: {}
+[55.303787] (-) TimerEvent: {}
+[55.404365] (-) TimerEvent: {}
+[55.504901] (-) TimerEvent: {}
+[55.605375] (-) TimerEvent: {}
+[55.705879] (-) TimerEvent: {}
+[55.806473] (-) TimerEvent: {}
+[55.906961] (-) TimerEvent: {}
+[56.007435] (-) TimerEvent: {}
+[56.107963] (-) TimerEvent: {}
+[56.135428] (find_object_2d) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_ParametersToolBox.cpp.o\x1b[0m\n'}
+[56.208086] (-) TimerEvent: {}
+[56.308569] (-) TimerEvent: {}
+[56.409071] (-) TimerEvent: {}
+[56.509653] (-) TimerEvent: {}
+[56.610184] (-) TimerEvent: {}
+[56.710705] (-) TimerEvent: {}
+[56.811211] (-) TimerEvent: {}
+[56.835826] (find_object_2d) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_AboutDialog.cpp.o\x1b[0m\n'}
+[56.911352] (-) TimerEvent: {}
+[57.011912] (-) TimerEvent: {}
+[57.112402] (-) TimerEvent: {}
+[57.212935] (-) TimerEvent: {}
+[57.313491] (-) TimerEvent: {}
+[57.370449] (find_object_2d) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_RectItem.cpp.o\x1b[0m\n'}
+[57.413657] (-) TimerEvent: {}
+[57.514178] (-) TimerEvent: {}
+[57.614719] (-) TimerEvent: {}
+[57.715222] (-) TimerEvent: {}
+[57.815718] (-) TimerEvent: {}
+[57.916238] (-) TimerEvent: {}
+[58.016715] (-) TimerEvent: {}
+[58.117255] (-) TimerEvent: {}
+[58.217760] (-) TimerEvent: {}
+[58.318256] (-) TimerEvent: {}
+[58.418740] (-) TimerEvent: {}
+[58.499394] (find_object_2d) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_ImageDropWidget.cpp.o\x1b[0m\n'}
+[58.518896] (-) TimerEvent: {}
+[58.619518] (-) TimerEvent: {}
+[58.719971] (-) TimerEvent: {}
+[58.820499] (-) TimerEvent: {}
+[58.920983] (-) TimerEvent: {}
+[59.021514] (-) TimerEvent: {}
+[59.122069] (-) TimerEvent: {}
+[59.169759] (find_object_2d) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/rtabmap/moc_PdfPlot.cpp.o\x1b[0m\n'}
+[59.222194] (-) TimerEvent: {}
+[59.322716] (-) TimerEvent: {}
+[59.423264] (-) TimerEvent: {}
+[59.523777] (-) TimerEvent: {}
+[59.553082] (find_object_2d) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/moc_UPlot.cpp.o\x1b[0m\n'}
+[59.623969] (-) TimerEvent: {}
+[59.657676] (find_object_2d) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/CMakeFiles/find_object.dir/qrc_resources.cpp.o\x1b[0m\n'}
+[59.724080] (-) TimerEvent: {}
+[59.824664] (-) TimerEvent: {}
+[59.925101] (-) TimerEvent: {}
+[60.025511] (-) TimerEvent: {}
+[60.125941] (-) TimerEvent: {}
+[60.226358] (-) TimerEvent: {}
+[60.326958] (-) TimerEvent: {}
+[60.427422] (-) TimerEvent: {}
+[60.527874] (-) TimerEvent: {}
+[60.628364] (-) TimerEvent: {}
+[60.728835] (-) TimerEvent: {}
+[60.829237] (-) TimerEvent: {}
+[60.929682] (-) TimerEvent: {}
+[61.030101] (-) TimerEvent: {}
+[61.130489] (-) TimerEvent: {}
+[61.230874] (-) TimerEvent: {}
+[61.331258] (-) TimerEvent: {}
+[61.431634] (-) TimerEvent: {}
+[61.532000] (-) TimerEvent: {}
+[61.632387] (-) TimerEvent: {}
+[61.732752] (-) TimerEvent: {}
+[61.751023] (find_object_2d) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library ../../../bin/libfind_object.so\x1b[0m\n'}
+[61.832953] (-) TimerEvent: {}
+[61.933625] (-) TimerEvent: {}
+[62.034256] (-) TimerEvent: {}
+[62.134997] (-) TimerEvent: {}
+[62.236013] (-) TimerEvent: {}
+[62.336959] (-) TimerEvent: {}
+[62.437463] (-) TimerEvent: {}
+[62.538028] (-) TimerEvent: {}
+[62.638577] (-) TimerEvent: {}
+[62.739125] (-) TimerEvent: {}
+[62.839493] (-) TimerEvent: {}
+[62.939903] (-) TimerEvent: {}
+[62.950951] (find_object_2d) StdoutLine: {'line': b'[ 77%] Built target find_object\n'}
+[62.969901] (find_object_2d) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating moc_TcpResponse.cpp\x1b[0m\n'}
+[62.970645] (find_object_2d) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating moc_ImagesTcpServer.cpp\x1b[0m\n'}
+[62.971219] (find_object_2d) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating moc_TcpServerPool.cpp\x1b[0m\n'}
+[63.011265] (find_object_2d) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/TcpResponse.cpp.o\x1b[0m\n'}
+[63.011960] (find_object_2d) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object tools/tcpService/CMakeFiles/tcpService.dir/main.cpp.o\x1b[0m\n'}
+[63.015441] (find_object_2d) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/ImagesTcpServer.cpp.o\x1b[0m\n'}
+[63.025269] (find_object_2d) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object app/CMakeFiles/find_object_app.dir/main.cpp.o\x1b[0m\n'}
+[63.040060] (-) TimerEvent: {}
+[63.140862] (-) TimerEvent: {}
+[63.241538] (-) TimerEvent: {}
+[63.342218] (-) TimerEvent: {}
+[63.442759] (-) TimerEvent: {}
+[63.543832] (-) TimerEvent: {}
+[63.644957] (-) TimerEvent: {}
+[63.745458] (-) TimerEvent: {}
+[63.846007] (-) TimerEvent: {}
+[63.946524] (-) TimerEvent: {}
+[64.047069] (-) TimerEvent: {}
+[64.147655] (-) TimerEvent: {}
+[64.248156] (-) TimerEvent: {}
+[64.348699] (-) TimerEvent: {}
+[64.449246] (-) TimerEvent: {}
+[64.549783] (-) TimerEvent: {}
+[64.650276] (-) TimerEvent: {}
+[64.750783] (-) TimerEvent: {}
+[64.851323] (-) TimerEvent: {}
+[64.951875] (-) TimerEvent: {}
+[65.052432] (-) TimerEvent: {}
+[65.152923] (-) TimerEvent: {}
+[65.253411] (-) TimerEvent: {}
+[65.353930] (-) TimerEvent: {}
+[65.454432] (-) TimerEvent: {}
+[65.554914] (-) TimerEvent: {}
+[65.655405] (-) TimerEvent: {}
+[65.755947] (-) TimerEvent: {}
+[65.856622] (-) TimerEvent: {}
+[65.957095] (-) TimerEvent: {}
+[66.057613] (-) TimerEvent: {}
+[66.158136] (-) TimerEvent: {}
+[66.258631] (-) TimerEvent: {}
+[66.359141] (-) TimerEvent: {}
+[66.459675] (-) TimerEvent: {}
+[66.560164] (-) TimerEvent: {}
+[66.660666] (-) TimerEvent: {}
+[66.711247] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic QHostAddress ImagesTcpServer::getHostAddress()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[66.712663] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:57:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQHostAddress& QHostAddress::operator=(const QString&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use = QHostAddress(string) instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[66.713019] (find_object_2d) StderrLine: {'line': b'   57 |                         hostAddress = ipAddressesList.at(i).toString(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[66.713173] (find_object_2d) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[66.713476] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/qnetworkinterface.h:46\x1b[m\x1b[K,\n'}
+[66.713722] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/QNetworkInterface:1\x1b[m\x1b[K,\n'}
+[66.713837] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:32\x1b[m\x1b[K:\n'}
+[66.713964] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/qhostaddress.h:110:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[66.714075] (find_object_2d) StderrLine: {'line': b'  110 |     QHostAddress &\x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const QString &address);\n'}
+[66.714182] (find_object_2d) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[66.760799] (-) TimerEvent: {}
+[66.861282] (-) TimerEvent: {}
+[66.961804] (-) TimerEvent: {}
+[67.062309] (-) TimerEvent: {}
+[67.162886] (-) TimerEvent: {}
+[67.263391] (-) TimerEvent: {}
+[67.363893] (-) TimerEvent: {}
+[67.464428] (-) TimerEvent: {}
+[67.564941] (-) TimerEvent: {}
+[67.665488] (-) TimerEvent: {}
+[67.766043] (-) TimerEvent: {}
+[67.866559] (-) TimerEvent: {}
+[67.967133] (-) TimerEvent: {}
+[68.008544] (find_object_2d) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/main.cpp.o\x1b[0m\n'}
+[68.067279] (-) TimerEvent: {}
+[68.167797] (-) TimerEvent: {}
+[68.268283] (-) TimerEvent: {}
+[68.368808] (-) TimerEvent: {}
+[68.469283] (-) TimerEvent: {}
+[68.569799] (-) TimerEvent: {}
+[68.670317] (-) TimerEvent: {}
+[68.694682] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[68.695199] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:605:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid QTime::start()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[68.695783] (find_object_2d) StderrLine: {'line': b'  605 |                         \x1b[01;35m\x1b[Ktime.start()\x1b[m\x1b[K;\n'}
+[68.696151] (find_object_2d) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[68.696301] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[68.696460] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39\x1b[m\x1b[K,\n'}
+[68.696586] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33\x1b[m\x1b[K:\n'}
+[68.696711] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[68.696855] (find_object_2d) StderrLine: {'line': b'  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void \x1b[01;36m\x1b[Kstart\x1b[m\x1b[K();\n'}
+[68.696993] (find_object_2d) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[68.697109] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39\x1b[m\x1b[K:\n'}
+[68.697219] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:611:114:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::elapsed() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[68.697358] (find_object_2d) StderrLine: {'line': b'  611 |        UINFO("%d objects detected! (%d ms)", (int)info.objDetected_.size(), \x1b[01;35m\x1b[Ktime.elapsed()\x1b[m\x1b[K);\n'}
+[68.697474] (find_object_2d) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[68.697579] (find_object_2d) StderrLine: {'line': b'\n'}
+[68.697696] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KULOGGER_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.697811] (find_object_2d) StderrLine: {'line': b'   52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K)\n'}
+[68.697905] (find_object_2d) StderrLine: {'line': b'      |                                                                                  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.698004] (find_object_2d) StderrLine: {'line': b'\n'}
+[68.698106] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KULOGGER_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.698227] (find_object_2d) StderrLine: {'line': b'   61 | #define UINFO(...)    \x1b[01;36m\x1b[KULOGGER_INFO\x1b[m\x1b[K(__VA_ARGS__)\n'}
+[68.698327] (find_object_2d) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.698418] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:611:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KUINFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.698565] (find_object_2d) StderrLine: {'line': b'  611 |                                 \x1b[01;36m\x1b[KUINFO\x1b[m\x1b[K("%d objects detected! (%d ms)", (int)info.objDetected_.size(), time.elapsed());\n'}
+[68.698700] (find_object_2d) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[68.698812] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[68.698912] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39\x1b[m\x1b[K,\n'}
+[68.698996] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33\x1b[m\x1b[K:\n'}
+[68.699080] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[68.699180] (find_object_2d) StderrLine: {'line': b'  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Kelapsed\x1b[m\x1b[K() const;\n'}
+[68.699312] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[68.699438] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39\x1b[m\x1b[K:\n'}
+[68.699546] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:615:120:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::elapsed() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[68.699659] (find_object_2d) StderrLine: {'line': b'  615 |  UINFO("Object %d detected! (%d ms)", (int)info.objDetected_.begin().key(), \x1b[01;35m\x1b[Ktime.elapsed()\x1b[m\x1b[K);\n'}
+[68.699786] (find_object_2d) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[68.699894] (find_object_2d) StderrLine: {'line': b'\n'}
+[68.699994] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KULOGGER_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.700101] (find_object_2d) StderrLine: {'line': b'   52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K)\n'}
+[68.700211] (find_object_2d) StderrLine: {'line': b'      |                                                                                  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.700373] (find_object_2d) StderrLine: {'line': b'\n'}
+[68.700521] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KULOGGER_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.700655] (find_object_2d) StderrLine: {'line': b'   61 | #define UINFO(...)    \x1b[01;36m\x1b[KULOGGER_INFO\x1b[m\x1b[K(__VA_ARGS__)\n'}
+[68.700805] (find_object_2d) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.700905] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:615:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KUINFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.701050] (find_object_2d) StderrLine: {'line': b'  615 |                                 \x1b[01;36m\x1b[KUINFO\x1b[m\x1b[K("Object %d detected! (%d ms)", (int)info.objDetected_.begin().key(), time.elapsed());\n'}
+[68.701190] (find_object_2d) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[68.701311] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[68.701467] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39\x1b[m\x1b[K,\n'}
+[68.701597] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33\x1b[m\x1b[K:\n'}
+[68.701769] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[68.701878] (find_object_2d) StderrLine: {'line': b'  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Kelapsed\x1b[m\x1b[K() const;\n'}
+[68.701970] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[68.702065] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39\x1b[m\x1b[K:\n'}
+[68.702159] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:619:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::elapsed() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[68.702247] (find_object_2d) StderrLine: {'line': b'  619 |                                 UINFO("No objects detected. (%d ms)", \x1b[01;35m\x1b[Ktime.elapsed()\x1b[m\x1b[K);\n'}
+[68.702340] (find_object_2d) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[68.702445] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KULOGGER_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.702558] (find_object_2d) StderrLine: {'line': b'   52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K)\n'}
+[68.702644] (find_object_2d) StderrLine: {'line': b'      |                                                                                  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.702733] (find_object_2d) StderrLine: {'line': b'\n'}
+[68.702809] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KULOGGER_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.702914] (find_object_2d) StderrLine: {'line': b'   61 | #define UINFO(...)    \x1b[01;36m\x1b[KULOGGER_INFO\x1b[m\x1b[K(__VA_ARGS__)\n'}
+[68.703024] (find_object_2d) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[68.703133] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:619:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KUINFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[68.703226] (find_object_2d) StderrLine: {'line': b'  619 |                                 \x1b[01;36m\x1b[KUINFO\x1b[m\x1b[K("No objects detected. (%d ms)", time.elapsed());\n'}
+[68.703315] (find_object_2d) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[68.703410] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[68.703523] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39\x1b[m\x1b[K,\n'}
+[68.703640] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33\x1b[m\x1b[K:\n'}
+[68.703736] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[68.703860] (find_object_2d) StderrLine: {'line': b'  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Kelapsed\x1b[m\x1b[K() const;\n'}
+[68.704027] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[68.770493] (-) TimerEvent: {}
+[68.870984] (-) TimerEvent: {}
+[68.972208] (-) TimerEvent: {}
+[69.072763] (-) TimerEvent: {}
+[69.173300] (-) TimerEvent: {}
+[69.273836] (-) TimerEvent: {}
+[69.374384] (-) TimerEvent: {}
+[69.474947] (-) TimerEvent: {}
+[69.575569] (-) TimerEvent: {}
+[69.676063] (-) TimerEvent: {}
+[69.776624] (-) TimerEvent: {}
+[69.877184] (-) TimerEvent: {}
+[69.977663] (-) TimerEvent: {}
+[69.997014] (find_object_2d) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/find_object-tcpService\x1b[0m\n'}
+[70.077824] (-) TimerEvent: {}
+[70.178592] (-) TimerEvent: {}
+[70.279324] (-) TimerEvent: {}
+[70.379905] (-) TimerEvent: {}
+[70.480455] (-) TimerEvent: {}
+[70.580981] (-) TimerEvent: {}
+[70.681612] (-) TimerEvent: {}
+[70.782110] (-) TimerEvent: {}
+[70.882614] (-) TimerEvent: {}
+[70.983405] (-) TimerEvent: {}
+[71.084294] (-) TimerEvent: {}
+[71.185051] (-) TimerEvent: {}
+[71.224593] (find_object_2d) StdoutLine: {'line': b'[ 88%] Built target tcpService\n'}
+[71.274503] (find_object_2d) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object example/CMakeFiles/example.dir/main.cpp.o\x1b[0m\n'}
+[71.285199] (-) TimerEvent: {}
+[71.385775] (-) TimerEvent: {}
+[71.486558] (-) TimerEvent: {}
+[71.587040] (-) TimerEvent: {}
+[71.687554] (-) TimerEvent: {}
+[71.788113] (-) TimerEvent: {}
+[71.888642] (-) TimerEvent: {}
+[71.989197] (-) TimerEvent: {}
+[72.089678] (-) TimerEvent: {}
+[72.190165] (-) TimerEvent: {}
+[72.290664] (-) TimerEvent: {}
+[72.389923] (find_object_2d) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/main.cpp.o\x1b[0m\n'}
+[72.390758] (-) TimerEvent: {}
+[72.491215] (-) TimerEvent: {}
+[72.591851] (-) TimerEvent: {}
+[72.625020] (find_object_2d) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/moc_ImagesTcpServer.cpp.o\x1b[0m\n'}
+[72.691934] (-) TimerEvent: {}
+[72.793044] (-) TimerEvent: {}
+[72.894566] (-) TimerEvent: {}
+[72.995168] (-) TimerEvent: {}
+[73.153145] (-) TimerEvent: {}
+[73.253773] (-) TimerEvent: {}
+[73.354394] (-) TimerEvent: {}
+[73.455067] (-) TimerEvent: {}
+[73.555663] (-) TimerEvent: {}
+[73.656204] (-) TimerEvent: {}
+[73.756764] (-) TimerEvent: {}
+[73.857338] (-) TimerEvent: {}
+[73.957875] (-) TimerEvent: {}
+[74.058431] (-) TimerEvent: {}
+[74.158936] (-) TimerEvent: {}
+[74.259494] (-) TimerEvent: {}
+[74.359959] (-) TimerEvent: {}
+[74.460469] (-) TimerEvent: {}
+[74.560948] (-) TimerEvent: {}
+[74.661480] (-) TimerEvent: {}
+[74.762171] (-) TimerEvent: {}
+[74.862722] (-) TimerEvent: {}
+[74.963279] (-) TimerEvent: {}
+[75.063710] (-) TimerEvent: {}
+[75.105456] (find_object_2d) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object app/CMakeFiles/find_object_app.dir/moc_TcpServerPool.cpp.o\x1b[0m\n'}
+[75.163875] (-) TimerEvent: {}
+[75.264334] (-) TimerEvent: {}
+[75.364838] (-) TimerEvent: {}
+[75.416477] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[75.416947] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:83:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid QTime::start()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.417169] (find_object_2d) StderrLine: {'line': b'   83 |         \x1b[01;35m\x1b[Ktime.start()\x1b[m\x1b[K;\n'}
+[75.417449] (find_object_2d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.417609] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.417739] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.419179] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.419456] (find_object_2d) StderrLine: {'line': b'  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void \x1b[01;36m\x1b[Kstart\x1b[m\x1b[K();\n'}
+[75.419576] (find_object_2d) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[75.419699] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:90:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.419928] (find_object_2d) StderrLine: {'line': b'   90 |                 printf("Loading images: %d ms\\n", \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.420051] (find_object_2d) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.420149] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.420394] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.420558] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.420689] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.420798] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.423292] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:117:109:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.423719] (find_object_2d) StderrLine: {'line': b'  117 |                 printf("Object: %d keypoints detected in %d ms\\n", (int)objectKeypoints.size(), \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.424003] (find_object_2d) StderrLine: {'line': b'      |                                                                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.424134] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.424236] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.424400] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.424771] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.424924] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.425164] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:119:107:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.425291] (find_object_2d) StderrLine: {'line': b'  119 |                 printf("Scene: %d keypoints detected in %d ms\\n", (int)sceneKeypoints.size(), \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.425393] (find_object_2d) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.425513] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.425734] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.425943] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.426069] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.426321] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.426458] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:139:107:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.426566] (find_object_2d) StderrLine: {'line': b'  139 |                 printf("Object: %d descriptors extracted in %d ms\\n", objectDescriptors.rows, \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.426652] (find_object_2d) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.426824] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.426941] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.427033] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.427123] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.427204] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.427285] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:141:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.427413] (find_object_2d) StderrLine: {'line': b'  141 |                 printf("Scene: %d descriptors extracted in %d ms\\n", sceneDescriptors.rows, \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.427519] (find_object_2d) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.427618] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.427718] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.427919] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.428047] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.428142] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.432589] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:164:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.432957] (find_object_2d) StderrLine: {'line': b'  164 |                                 printf("Time creating FLANN LSH index = %d ms\\n", \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.433099] (find_object_2d) StderrLine: {'line': b'      |                                                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.433264] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.433447] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.433630] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.433777] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.434056] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.434211] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:183:98:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.434528] (find_object_2d) StderrLine: {'line': b'  183 |                                 printf("Time creating FLANN KDTree index = %d ms\\n", \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.434656] (find_object_2d) StderrLine: {'line': b'      |                                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.434769] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.434889] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.434998] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.435096] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.435210] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.435301] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:189:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.435499] (find_object_2d) StderrLine: {'line': b'  189 |                 printf("Time nearest neighbor search = %d ms\\n", \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.435654] (find_object_2d) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.435796] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.435905] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.436007] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.436095] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.436191] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.443118] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:252:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid QTime::start()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.444026] (find_object_2d) StderrLine: {'line': b'  252 |                         \x1b[01;35m\x1b[Ktime.start()\x1b[m\x1b[K;\n'}
+[75.444535] (find_object_2d) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.444768] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.444922] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.445045] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.445265] (find_object_2d) StderrLine: {'line': b'  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void \x1b[01;36m\x1b[Kstart\x1b[m\x1b[K();\n'}
+[75.445457] (find_object_2d) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[75.445614] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:258:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::restart()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[75.445802] (find_object_2d) StderrLine: {'line': b'  258 |                         printf("Time finding homography = %d ms\\n", \x1b[01;35m\x1b[Ktime.restart()\x1b[m\x1b[K);\n'}
+[75.445946] (find_object_2d) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[75.446088] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[75.446228] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31\x1b[m\x1b[K:\n'}
+[75.446514] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[75.446694] (find_object_2d) StderrLine: {'line': b'  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Krestart\x1b[m\x1b[K();\n'}
+[75.446852] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[75.465008] (-) TimerEvent: {}
+[75.565508] (-) TimerEvent: {}
+[75.666085] (-) TimerEvent: {}
+[75.766575] (-) TimerEvent: {}
+[75.867029] (-) TimerEvent: {}
+[75.967487] (-) TimerEvent: {}
+[76.067982] (-) TimerEvent: {}
+[76.168415] (-) TimerEvent: {}
+[76.268835] (-) TimerEvent: {}
+[76.369278] (-) TimerEvent: {}
+[76.469808] (-) TimerEvent: {}
+[76.570264] (-) TimerEvent: {}
+[76.670757] (-) TimerEvent: {}
+[76.757735] (find_object_2d) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/find_object-tcpImagesServer\x1b[0m\n'}
+[76.771018] (-) TimerEvent: {}
+[76.872052] (-) TimerEvent: {}
+[76.972842] (-) TimerEvent: {}
+[77.073494] (-) TimerEvent: {}
+[77.174134] (-) TimerEvent: {}
+[77.274780] (-) TimerEvent: {}
+[77.278332] (find_object_2d) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ../../../bin/find_object-example\x1b[0m\n'}
+[77.357904] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[77.358385] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:248:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid QTime::start()\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[77.358732] (find_object_2d) StderrLine: {'line': b'  248 |         \x1b[01;35m\x1b[Ktime.start()\x1b[m\x1b[K;\n'}
+[77.358886] (find_object_2d) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[77.359000] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[77.359147] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:31\x1b[m\x1b[K:\n'}
+[77.359328] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.359543] (find_object_2d) StderrLine: {'line': b'  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void \x1b[01;36m\x1b[Kstart\x1b[m\x1b[K();\n'}
+[77.359896] (find_object_2d) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[77.360010] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:263:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QTime::elapsed() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use QElapsedTimer instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[77.360119] (find_object_2d) StderrLine: {'line': b'  263 |                 printf("Response received! (%d ms)\\n", \x1b[01;35m\x1b[Ktime.elapsed()\x1b[m\x1b[K);\n'}
+[77.360214] (find_object_2d) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[77.360374] (find_object_2d) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1\x1b[m\x1b[K,\n'}
+[77.361019] (find_object_2d) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:31\x1b[m\x1b[K:\n'}
+[77.361273] (find_object_2d) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[77.361469] (find_object_2d) StderrLine: {'line': b'  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int \x1b[01;36m\x1b[Kelapsed\x1b[m\x1b[K() const;\n'}
+[77.361615] (find_object_2d) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[77.374960] (-) TimerEvent: {}
+[77.475632] (-) TimerEvent: {}
+[77.576198] (-) TimerEvent: {}
+[77.677004] (-) TimerEvent: {}
+[77.778047] (-) TimerEvent: {}
+[77.879641] (-) TimerEvent: {}
+[77.980729] (-) TimerEvent: {}
+[78.081457] (-) TimerEvent: {}
+[78.182547] (-) TimerEvent: {}
+[78.283244] (-) TimerEvent: {}
+[78.384082] (-) TimerEvent: {}
+[78.484625] (-) TimerEvent: {}
+[78.585404] (-) TimerEvent: {}
+[78.686277] (-) TimerEvent: {}
+[78.787215] (-) TimerEvent: {}
+[78.871326] (find_object_2d) StdoutLine: {'line': b'[ 96%] Built target tcpImagesServer\n'}
+[78.887357] (-) TimerEvent: {}
+[78.896070] (find_object_2d) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/moc_TcpResponse.cpp.o\x1b[0m\n'}
+[78.917935] (find_object_2d) StdoutLine: {'line': b'[ 97%] Built target example\n'}
+[78.987467] (-) TimerEvent: {}
+[79.088349] (-) TimerEvent: {}
+[79.189077] (-) TimerEvent: {}
+[79.289521] (-) TimerEvent: {}
+[79.390037] (-) TimerEvent: {}
+[79.490468] (-) TimerEvent: {}
+[79.590901] (-) TimerEvent: {}
+[79.691323] (-) TimerEvent: {}
+[79.791795] (-) TimerEvent: {}
+[79.892299] (-) TimerEvent: {}
+[79.992752] (-) TimerEvent: {}
+[80.093254] (-) TimerEvent: {}
+[80.193755] (-) TimerEvent: {}
+[80.294253] (-) TimerEvent: {}
+[80.394803] (-) TimerEvent: {}
+[80.495287] (-) TimerEvent: {}
+[80.595867] (-) TimerEvent: {}
+[80.696274] (-) TimerEvent: {}
+[80.796775] (-) TimerEvent: {}
+[80.898393] (-) TimerEvent: {}
+[80.998900] (-) TimerEvent: {}
+[81.099294] (-) TimerEvent: {}
+[81.199769] (-) TimerEvent: {}
+[81.300179] (-) TimerEvent: {}
+[81.400614] (-) TimerEvent: {}
+[81.501006] (-) TimerEvent: {}
+[81.601761] (-) TimerEvent: {}
+[81.702211] (-) TimerEvent: {}
+[81.802885] (-) TimerEvent: {}
+[81.903296] (-) TimerEvent: {}
+[82.003710] (-) TimerEvent: {}
+[82.104151] (-) TimerEvent: {}
+[82.204603] (-) TimerEvent: {}
+[82.305242] (-) TimerEvent: {}
+[82.406038] (-) TimerEvent: {}
+[82.506496] (-) TimerEvent: {}
+[82.606976] (-) TimerEvent: {}
+[82.707425] (-) TimerEvent: {}
+[82.808006] (-) TimerEvent: {}
+[82.908452] (-) TimerEvent: {}
+[83.009254] (-) TimerEvent: {}
+[83.022922] (find_object_2d) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable ../../../bin/find_object\x1b[0m\n'}
+[83.109587] (-) TimerEvent: {}
+[83.211129] (-) TimerEvent: {}
+[83.276047] (find_object_2d) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../../../bin/find_object-tcpRequest\x1b[0m\n'}
+[83.311345] (-) TimerEvent: {}
+[83.412494] (-) TimerEvent: {}
+[83.515028] (-) TimerEvent: {}
+[83.615614] (-) TimerEvent: {}
+[83.716149] (-) TimerEvent: {}
+[83.816946] (-) TimerEvent: {}
+[83.917370] (-) TimerEvent: {}
+[84.017851] (-) TimerEvent: {}
+[84.118286] (-) TimerEvent: {}
+[84.218727] (-) TimerEvent: {}
+[84.319392] (-) TimerEvent: {}
+[84.368610] (find_object_2d) StdoutLine: {'line': b'[100%] Built target find_object_app\n'}
+[84.419502] (-) TimerEvent: {}
+[84.520026] (-) TimerEvent: {}
+[84.523651] (find_object_2d) StdoutLine: {'line': b'[100%] Built target tcpRequest\n'}
+[84.540897] (find_object_2d) CommandEnded: {'returncode': 0}
+[84.577442] (find_object_2d) JobProgress: {'identifier': 'find_object_2d', 'progress': 'install'}
+[84.592403] (find_object_2d) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d', 'env': OrderedDict([('HOSTNAME', 'robot'), ('GIT_ASKPASS', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/imu_ws/install/rviz_imu_plugin/lib:/root/imu_ws/install/imu_filter_madgwick/lib:/root/imu_ws/install/imu_complementary_filter/lib:/root/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ws/install/robot_localization/lib:/root/gmapping_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7d8bbf8f-d684-4d28-b8c3-11855c08cf1c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/node'), ('LC_CTYPE', 'C.UTF-8'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ws/install:/root/imu_ws/install:/root/gmapping_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/2901c5ac6db8a986a5666c3af51ff804d05af0d4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-94a6b447580330f9.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e29eea5f2f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c56ffbdf-dc3b-47b2-a1ad-6673450f1281.sock'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/root/imu_ws/install/imu_tools:/root/imu_ws/install/rviz_imu_plugin:/root/imu_ws/install/imu_filter_madgwick:/root/imu_ws/install/imu_complementary_filter:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ws/install/robot_localization:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/root/gmapping_ws/install/slam_gmapping:/root/gmapping_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d'), ('PYTHONPATH', '/root/yahboomcar_ws/install/yahboomcar_visual/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_nav/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_multi/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_msgs/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_laser/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_description/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboomcar_astra/lib/python3.10/site-packages:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.10/site-packages:/root/yahboomcar_ws/install/robot_localization/local/lib/python3.10/dist-packages:/root/yahboomcar_ws/install/laserscan_to_point_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/imu_ws/install/imu_tools:/root/imu_ws/install/rviz_imu_plugin:/root/imu_ws/install/imu_filter_madgwick:/root/imu_ws/install/imu_complementary_filter:/root/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ws/install/robot_localization:/root/gmapping_ws/install/slam_gmapping:/root/gmapping_ws/install/openslam_gmapping:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble')]), 'shell': False}
+[84.605332] (find_object_2d) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[84.605959] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/find_object-0.7/FindObjectConfig.cmake\n'}
+[84.606421] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/find_object-0.7/FindObjectConfigVersion.cmake\n'}
+[84.607312] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/libfind_object.so\n'}
+[84.610151] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7\n'}
+[84.610640] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object\n'}
+[84.610960] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/TcpServer.h\n'}
+[84.611305] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/QtOpenCV.h\n'}
+[84.611654] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/FindObject.h\n'}
+[84.612081] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/FindObjectExp.h\n'}
+[84.612571] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/DetectionInfo.h\n'}
+[84.612897] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Settings.h\n'}
+[84.613276] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite\n'}
+[84.613535] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UDestroyer.h\n'}
+[84.613875] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/ULogger.h\n'}
+[84.614252] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UMutex.h\n'}
+[84.614569] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UWin32.h\n'}
+[84.614911] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/JsonWriter.h\n'}
+[84.615251] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/ObjWidget.h\n'}
+[84.615575] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Camera.h\n'}
+[84.615931] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Header.h\n'}
+[84.616277] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/MainWindow.h\n'}
+[84.616613] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Version.h\n'}
+[84.617318] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object\n'}
+[84.618264] (find_object_2d) StdoutLine: {'line': b'-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object" to ""\n'}
+[84.618859] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpClient\n'}
+[84.619603] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpImagesServer\n'}
+[84.620067] (-) TimerEvent: {}
+[84.620616] (find_object_2d) StdoutLine: {'line': b'-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpImagesServer" to ""\n'}
+[84.621050] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpRequest\n'}
+[84.621965] (find_object_2d) StdoutLine: {'line': b'-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpRequest" to ""\n'}
+[84.622402] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpService\n'}
+[84.623183] (find_object_2d) StdoutLine: {'line': b'-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpService" to ""\n'}
+[84.623617] (find_object_2d) StdoutLine: {'line': b'-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-example\n'}
+[84.624447] (find_object_2d) StdoutLine: {'line': b'-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-example" to ""\n'}
+[84.626531] (find_object_2d) CommandEnded: {'returncode': 0}
+[84.721565] (-) TimerEvent: {}
+[84.821930] (-) TimerEvent: {}
+[84.922258] (-) TimerEvent: {}
+[84.959185] (find_object_2d) JobEnded: {'identifier': 'find_object_2d', 'rc': 0}
+[84.961055] (-) EventReactorShutdown: {}

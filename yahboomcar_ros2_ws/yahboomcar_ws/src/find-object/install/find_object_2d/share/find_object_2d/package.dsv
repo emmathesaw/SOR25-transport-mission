@@ -1,0 +1,17 @@
+source;share/find_object_2d/hook/cmake_prefix_path.ps1
+source;share/find_object_2d/hook/cmake_prefix_path.dsv
+source;share/find_object_2d/hook/cmake_prefix_path.sh
+source;share/find_object_2d/hook/ld_library_path_lib.ps1
+source;share/find_object_2d/hook/ld_library_path_lib.dsv
+source;share/find_object_2d/hook/ld_library_path_lib.sh
+source;share/find_object_2d/hook/path.ps1
+source;share/find_object_2d/hook/path.dsv
+source;share/find_object_2d/hook/path.sh
+source;share/find_object_2d/hook/pythonscriptspath.ps1
+source;share/find_object_2d/hook/pythonscriptspath.dsv
+source;share/find_object_2d/hook/pythonscriptspath.sh
+source;share/find_object_2d/local_setup.bash
+source;share/find_object_2d/local_setup.dsv
+source;share/find_object_2d/local_setup.ps1
+source;share/find_object_2d/local_setup.sh
+source;share/find_object_2d/local_setup.zsh

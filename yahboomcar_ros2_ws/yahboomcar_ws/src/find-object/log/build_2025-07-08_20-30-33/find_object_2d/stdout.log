@@ -1,0 +1,152 @@
+-- CATKIN_BUILD=FALSE
+-- COLCON_BUILD=FALSE
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Performing Test COMPILER_SUPPORTS_CXX17
+-- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+-- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND
+-- --------------------------------------------
+-- Info :
+--   CMAKE_INSTALL_PREFIX = /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d
+--   CMAKE_BUILD_TYPE = Release
+--   PROJECT_VERSION = 0.7.4
+--   With OpenCV 4.5.4 xfeatures2d module (BRIEF/FREAK/KAZE) = NO (not found)
+--   With OpenCV 4.5.4 nonfree module (SURF) = NO
+--   With Qt5 = YES
+--   With tcmalloc = NO (tcmalloc not found)
+--   With Torch = NO (libtorch not found)
+-- --------------------------------------------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d
+[  2%] [34m[1mGenerating moc_TcpClient.cpp[0m
+[  2%] [34m[1mGenerating utilite/moc_UPlot.cpp[0m
+[  3%] [34m[1mGenerating __/include/find_object/moc_Camera.cpp[0m
+[  5%] [34m[1mGenerating __/include/find_object/moc_FindObject.cpp[0m
+[  6%] [34m[1mGenerating __/include/find_object/moc_ObjWidget.cpp[0m
+[  7%] [34m[1mGenerating __/include/find_object/moc_TcpServer.cpp[0m
+[  8%] [34m[1mGenerating __/include/find_object/moc_MainWindow.cpp[0m
+[ 10%] [32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/TcpClient.cpp.o[0m
+[ 11%] [34m[1mGenerating moc_AboutDialog.cpp[0m
+[ 12%] [32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/main.cpp.o[0m
+[ 13%] [34m[1mGenerating moc_AddObjectDialog.cpp[0m
+[ 15%] [32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/moc_TcpClient.cpp.o[0m
+[ 16%] [34m[1mGenerating moc_CameraTcpServer.cpp[0m
+[ 17%] [34m[1mGenerating moc_ImageDropWidget.cpp[0m
+[ 18%] [34m[1mGenerating moc_ParametersToolBox.cpp[0m
+[ 20%] [34m[1mGenerating moc_RectItem.cpp[0m
+[ 21%] [34m[1mGenerating qrc_resources.cpp[0m
+[ 22%] [34m[1mGenerating rtabmap/moc_PdfPlot.cpp[0m
+[ 24%] [34m[1mGenerating ui_aboutDialog.h[0m
+[ 25%] [34m[1mGenerating ui_addObjectDialog.h[0m
+[ 26%] [34m[1mGenerating ui_mainWindow.h[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/MainWindow.cpp.o[0m
+[ 29%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/AddObjectDialog.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/KeypointItem.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/RectItem.cpp.o[0m
+[ 32%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/QtOpenCV.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpClient[0m
+[ 34%] Built target tcpClient
+[ 35%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Camera.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/CameraTcpServer.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/ParametersToolBox.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Settings.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/ObjWidget.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/ImageDropWidget.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/FindObject.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/AboutDialog.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/TcpServer.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Vocabulary.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/JsonWriter.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/ULogger.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UPlot.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UDirectory.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UFile.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UConversion.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/rtabmap/PdfPlot.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/json/jsoncpp.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Compression.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_MainWindow.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_FindObject.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_Camera.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_TcpServer.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_ObjWidget.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_AddObjectDialog.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_CameraTcpServer.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_ParametersToolBox.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_AboutDialog.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_RectItem.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_ImageDropWidget.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/rtabmap/moc_PdfPlot.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/moc_UPlot.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/qrc_resources.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library ../../../bin/libfind_object.so[0m
+[ 77%] Built target find_object
+[ 78%] [34m[1mGenerating moc_TcpResponse.cpp[0m
+[ 79%] [34m[1mGenerating moc_ImagesTcpServer.cpp[0m
+[ 81%] [34m[1mGenerating moc_TcpServerPool.cpp[0m
+[ 83%] [32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/TcpResponse.cpp.o[0m
+[ 83%] [32mBuilding CXX object tools/tcpService/CMakeFiles/tcpService.dir/main.cpp.o[0m
+[ 84%] [32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/ImagesTcpServer.cpp.o[0m
+[ 86%] [32mBuilding CXX object app/CMakeFiles/find_object_app.dir/main.cpp.o[0m
+[ 87%] [32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/main.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpService[0m
+[ 88%] Built target tcpService
+[ 89%] [32mBuilding CXX object example/CMakeFiles/example.dir/main.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/main.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/moc_ImagesTcpServer.cpp.o[0m
+[ 93%] [32mBuilding CXX object app/CMakeFiles/find_object_app.dir/moc_TcpServerPool.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpImagesServer[0m
+[ 96%] [32m[1mLinking CXX executable ../../../bin/find_object-example[0m
+[ 96%] Built target tcpImagesServer
+[ 97%] [32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/moc_TcpResponse.cpp.o[0m
+[ 97%] Built target example
+[ 98%] [32m[1mLinking CXX executable ../../../bin/find_object[0m
+[100%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpRequest[0m
+[100%] Built target find_object_app
+[100%] Built target tcpRequest
+-- Install configuration: "Release"
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/find_object-0.7/FindObjectConfig.cmake
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/find_object-0.7/FindObjectConfigVersion.cmake
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/libfind_object.so
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/TcpServer.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/QtOpenCV.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/FindObject.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/FindObjectExp.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/DetectionInfo.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Settings.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UDestroyer.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/ULogger.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UMutex.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UWin32.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/JsonWriter.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/ObjWidget.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Camera.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Header.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/MainWindow.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Version.h
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object
+-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object" to ""
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpClient
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpImagesServer
+-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpImagesServer" to ""
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpRequest
+-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpRequest" to ""
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpService
+-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpService" to ""
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-example
+-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-example" to ""

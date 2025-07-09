@@ -1,0 +1,400 @@
+[0.134s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d
+[0.226s] -- CATKIN_BUILD=FALSE
+[0.226s] -- COLCON_BUILD=FALSE
+[0.574s] -- The C compiler identification is GNU 11.4.0
+[0.863s] -- The CXX compiler identification is GNU 11.4.0
+[0.884s] -- Detecting C compiler ABI info
+[1.023s] -- Detecting C compiler ABI info - done
+[1.035s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.036s] -- Detecting C compile features
+[1.038s] -- Detecting C compile features - done
+[1.044s] -- Detecting CXX compiler ABI info
+[1.168s] -- Detecting CXX compiler ABI info - done
+[1.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.180s] -- Detecting CXX compile features
+[1.180s] -- Detecting CXX compile features - done
+[1.224s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.260s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[1.368s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[1.463s] -- Not Found Tcmalloc: Tcmalloc_LIBRARY-NOTFOUND
+[1.501s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[1.501s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[1.501s]   6.
+[1.501s] Call Stack (most recent call first):
+[1.502s]   /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[1.502s]   app/CMakeLists.txt:74 (QT5_USE_MODULES)
+[1.502s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.502s] [0m
+[1.505s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[1.505s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[1.505s]   6.
+[1.505s] Call Stack (most recent call first):
+[1.505s]   /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[1.505s]   tools/tcpClient/CMakeLists.txt:41 (QT5_USE_MODULES)
+[1.505s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.505s] [0m
+[1.507s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[1.507s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[1.508s]   6.
+[1.508s] Call Stack (most recent call first):
+[1.508s]   /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[1.508s]   tools/tcpImagesServer/CMakeLists.txt:41 (QT5_USE_MODULES)
+[1.508s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.508s] [0m
+[1.510s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[1.510s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[1.511s]   6.
+[1.511s] Call Stack (most recent call first):
+[1.511s]   /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[1.511s]   tools/tcpRequest/CMakeLists.txt:42 (QT5_USE_MODULES)
+[1.511s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.511s] [0m
+[1.513s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[1.513s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[1.513s]   6.
+[1.513s] Call Stack (most recent call first):
+[1.513s]   /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[1.513s]   tools/tcpService/CMakeLists.txt:29 (QT5_USE_MODULES)
+[1.513s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.513s] [0m
+[1.516s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[1.516s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[1.516s]   6.
+[1.516s] Call Stack (most recent call first):
+[1.516s]   /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[1.516s]   example/CMakeLists.txt:29 (QT5_USE_MODULES)
+[1.516s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.516s] [0m
+[1.542s] -- --------------------------------------------
+[1.542s] -- Info :
+[1.542s] --   CMAKE_INSTALL_PREFIX = /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d
+[1.542s] --   CMAKE_BUILD_TYPE = Release
+[1.542s] --   PROJECT_VERSION = 0.7.4
+[1.542s] --   With OpenCV 4.5.4 xfeatures2d module (BRIEF/FREAK/KAZE) = NO (not found)
+[1.543s] --   With OpenCV 4.5.4 nonfree module (SURF) = NO
+[1.543s] --   With Qt5 = YES
+[1.543s] --   With tcmalloc = NO (tcmalloc not found)
+[1.543s] --   With Torch = NO (libtorch not found)
+[1.543s] -- --------------------------------------------
+[1.543s] -- Configuring done
+[1.669s] -- Generating done
+[1.671s] [33mCMake Warning:
+[1.671s]   Manually-specified variables were not used by the project:
+[1.671s] 
+[1.672s]     AMENT_CMAKE_SYMLINK_INSTALL
+[1.672s] 
+[1.672s] [0m
+[1.672s] -- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d
+[1.687s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d
+[1.689s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d -- -j4 -l4
+[1.746s] [  2%] [34m[1mGenerating moc_TcpClient.cpp[0m
+[1.747s] [  2%] [34m[1mGenerating utilite/moc_UPlot.cpp[0m
+[1.748s] [  3%] [34m[1mGenerating __/include/find_object/moc_Camera.cpp[0m
+[1.751s] [  5%] [34m[1mGenerating __/include/find_object/moc_FindObject.cpp[0m
+[1.782s] [  6%] [34m[1mGenerating __/include/find_object/moc_ObjWidget.cpp[0m
+[1.783s] [  7%] [34m[1mGenerating __/include/find_object/moc_TcpServer.cpp[0m
+[1.791s] [  8%] [34m[1mGenerating __/include/find_object/moc_MainWindow.cpp[0m
+[1.802s] [ 10%] [32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/TcpClient.cpp.o[0m
+[1.816s] [ 11%] [34m[1mGenerating moc_AboutDialog.cpp[0m
+[1.818s] [ 12%] [32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/main.cpp.o[0m
+[1.827s] [ 13%] [34m[1mGenerating moc_AddObjectDialog.cpp[0m
+[1.836s] [ 15%] [32mBuilding CXX object tools/tcpClient/CMakeFiles/tcpClient.dir/moc_TcpClient.cpp.o[0m
+[1.847s] [ 16%] [34m[1mGenerating moc_CameraTcpServer.cpp[0m
+[1.870s] [ 17%] [34m[1mGenerating moc_ImageDropWidget.cpp[0m
+[1.889s] [ 18%] [34m[1mGenerating moc_ParametersToolBox.cpp[0m
+[1.912s] [ 20%] [34m[1mGenerating moc_RectItem.cpp[0m
+[1.932s] [ 21%] [34m[1mGenerating qrc_resources.cpp[0m
+[1.970s] [ 22%] [34m[1mGenerating rtabmap/moc_PdfPlot.cpp[0m
+[2.003s] [ 24%] [34m[1mGenerating ui_aboutDialog.h[0m
+[2.198s] [ 25%] [34m[1mGenerating ui_addObjectDialog.h[0m
+[2.226s] [ 26%] [34m[1mGenerating ui_mainWindow.h[0m
+[2.283s] [ 27%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/MainWindow.cpp.o[0m
+[4.172s] [ 29%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/AddObjectDialog.cpp.o[0m
+[4.351s] [ 30%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/KeypointItem.cpp.o[0m
+[8.495s] [ 31%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/RectItem.cpp.o[0m
+[11.358s] [ 32%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/QtOpenCV.cpp.o[0m
+[11.723s] [ 34%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpClient[0m
+[12.694s] [ 34%] Built target tcpClient
+[12.717s] [ 35%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Camera.cpp.o[0m
+[13.626s] [ 36%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/CameraTcpServer.cpp.o[0m
+[15.649s] [ 37%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/ParametersToolBox.cpp.o[0m
+[21.158s] [ 39%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Settings.cpp.o[0m
+[21.686s] [ 40%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/ObjWidget.cpp.o[0m
+[23.200s] [ 41%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/ImageDropWidget.cpp.o[0m
+[26.381s] [ 43%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/FindObject.cpp.o[0m
+[28.252s] [ 44%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/AboutDialog.cpp.o[0m
+[29.429s] [ 45%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/TcpServer.cpp.o[0m
+[31.668s] [ 46%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Vocabulary.cpp.o[0m
+[36.433s] [ 48%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/JsonWriter.cpp.o[0m
+[36.560s] [ 49%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/ULogger.cpp.o[0m
+[38.282s] [ 50%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UPlot.cpp.o[0m
+[41.225s] [ 51%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UDirectory.cpp.o[0m
+[41.659s] [ 53%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UFile.cpp.o[0m
+[43.131s] [ 54%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/UConversion.cpp.o[0m
+[43.354s] [ 55%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/rtabmap/PdfPlot.cpp.o[0m
+[44.578s] [ 56%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/json/jsoncpp.cpp.o[0m
+[46.015s] [ 58%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/Compression.cpp.o[0m
+[46.327s] [ 59%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_MainWindow.cpp.o[0m
+[46.492s] [ 60%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_FindObject.cpp.o[0m
+[50.650s] [ 62%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_Camera.cpp.o[0m
+[51.073s] [ 63%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_TcpServer.cpp.o[0m
+[52.385s] [ 64%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/__/include/find_object/moc_ObjWidget.cpp.o[0m
+[53.090s] [ 65%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_AddObjectDialog.cpp.o[0m
+[54.001s] [ 67%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_CameraTcpServer.cpp.o[0m
+[56.135s] [ 68%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_ParametersToolBox.cpp.o[0m
+[56.835s] [ 69%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_AboutDialog.cpp.o[0m
+[57.370s] [ 70%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_RectItem.cpp.o[0m
+[58.499s] [ 72%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/moc_ImageDropWidget.cpp.o[0m
+[59.169s] [ 73%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/rtabmap/moc_PdfPlot.cpp.o[0m
+[59.552s] [ 74%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/utilite/moc_UPlot.cpp.o[0m
+[59.657s] [ 75%] [32mBuilding CXX object src/CMakeFiles/find_object.dir/qrc_resources.cpp.o[0m
+[61.750s] [ 77%] [32m[1mLinking CXX shared library ../../../bin/libfind_object.so[0m
+[62.950s] [ 77%] Built target find_object
+[62.969s] [ 78%] [34m[1mGenerating moc_TcpResponse.cpp[0m
+[62.970s] [ 79%] [34m[1mGenerating moc_ImagesTcpServer.cpp[0m
+[62.970s] [ 81%] [34m[1mGenerating moc_TcpServerPool.cpp[0m
+[63.010s] [ 83%] [32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/TcpResponse.cpp.o[0m
+[63.011s] [ 83%] [32mBuilding CXX object tools/tcpService/CMakeFiles/tcpService.dir/main.cpp.o[0m
+[63.015s] [ 84%] [32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/ImagesTcpServer.cpp.o[0m
+[63.025s] [ 86%] [32mBuilding CXX object app/CMakeFiles/find_object_app.dir/main.cpp.o[0m
+[66.710s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:[m[K In static member function ‘[01m[Kstatic QHostAddress ImagesTcpServer::getHostAddress()[m[K’:
+[66.712s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:57:70:[m[K [01;35m[Kwarning: [m[K‘[01m[KQHostAddress& QHostAddress::operator=(const QString&)[m[K’ is deprecated: use = QHostAddress(string) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[66.712s]    57 |                         hostAddress = ipAddressesList.at(i).toString([01;35m[K)[m[K;
+[66.712s]       |                                                                      [01;35m[K^[m[K
+[66.713s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/qnetworkinterface.h:46[m[K,
+[66.713s]                  from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/QNetworkInterface:1[m[K,
+[66.713s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:32[m[K:
+[66.713s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/qhostaddress.h:110:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[66.713s]   110 |     QHostAddress &[01;36m[Koperator[m[K=(const QString &address);
+[66.713s]       |                   [01;36m[K^~~~~~~~[m[K
+[68.008s] [ 87%] [32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/main.cpp.o[0m
+[68.694s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[68.694s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:605:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[68.695s]   605 |                         [01;35m[Ktime.start()[m[K;
+[68.695s]       |                         [01;35m[K~~~~~~~~~~^~[m[K
+[68.695s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[68.695s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+[68.696s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[68.696s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+[68.696s]   235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+[68.696s]       |                                                       [01;36m[K^~~~~[m[K
+[68.696s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39[m[K:
+[68.696s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:611:114:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[68.696s]   611 |        UINFO("%d objects detected! (%d ms)", (int)info.objDetected_.size(), [01;35m[Ktime.elapsed()[m[K);
+[68.696s]       |                                                                             [01;35m[K~~~~~~~~~~~~^~[m[K
+[68.697s] 
+[68.697s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KULOGGER_LOG[m[K’
+[68.697s]    52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[68.697s]       |                                                                                  [01;36m[K^~~~~~~~~~~[m[K
+[68.697s] 
+[68.697s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KULOGGER_INFO[m[K’
+[68.697s]    61 | #define UINFO(...)    [01;36m[KULOGGER_INFO[m[K(__VA_ARGS__)
+[68.697s]       |                       [01;36m[K^~~~~~~~~~~~[m[K
+[68.697s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:611:33:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KUINFO[m[K’
+[68.698s]   611 |                                 [01;36m[KUINFO[m[K("%d objects detected! (%d ms)", (int)info.objDetected_.size(), time.elapsed());
+[68.698s]       |                                 [01;36m[K^~~~~[m[K
+[68.698s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[68.698s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+[68.698s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[68.698s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[68.698s]   237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+[68.698s]       |                                                      [01;36m[K^~~~~~~[m[K
+[68.698s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39[m[K:
+[68.699s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:615:120:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[68.699s]   615 |  UINFO("Object %d detected! (%d ms)", (int)info.objDetected_.begin().key(), [01;35m[Ktime.elapsed()[m[K);
+[68.699s]       |                                                                             [01;35m[K~~~~~~~~~~~~^~[m[K
+[68.699s] 
+[68.699s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KULOGGER_LOG[m[K’
+[68.699s]    52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[68.699s]       |                                                                                  [01;36m[K^~~~~~~~~~~[m[K
+[68.699s] 
+[68.700s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KULOGGER_INFO[m[K’
+[68.700s]    61 | #define UINFO(...)    [01;36m[KULOGGER_INFO[m[K(__VA_ARGS__)
+[68.700s]       |                       [01;36m[K^~~~~~~~~~~~[m[K
+[68.700s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:615:33:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KUINFO[m[K’
+[68.700s]   615 |                                 [01;36m[KUINFO[m[K("Object %d detected! (%d ms)", (int)info.objDetected_.begin().key(), time.elapsed());
+[68.700s]       |                                 [01;36m[K^~~~~[m[K
+[68.700s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[68.700s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+[68.701s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[68.701s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[68.701s]   237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+[68.701s]       |                                                      [01;36m[K^~~~~~~[m[K
+[68.701s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39[m[K:
+[68.701s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:619:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[68.701s]   619 |                                 UINFO("No objects detected. (%d ms)", [01;35m[Ktime.elapsed()[m[K);
+[68.701s]       |                                                                       [01;35m[K~~~~~~~~~~~~^~[m[K
+[68.701s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KULOGGER_LOG[m[K’
+[68.702s]    52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[68.702s]       |                                                                                  [01;36m[K^~~~~~~~~~~[m[K
+[68.702s] 
+[68.702s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KULOGGER_INFO[m[K’
+[68.702s]    61 | #define UINFO(...)    [01;36m[KULOGGER_INFO[m[K(__VA_ARGS__)
+[68.702s]       |                       [01;36m[K^~~~~~~~~~~~[m[K
+[68.702s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:619:33:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KUINFO[m[K’
+[68.702s]   619 |                                 [01;36m[KUINFO[m[K("No objects detected. (%d ms)", time.elapsed());
+[68.702s]       |                                 [01;36m[K^~~~~[m[K
+[68.702s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[68.703s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+[68.703s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[68.703s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[68.703s]   237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+[68.703s]       |                                                      [01;36m[K^~~~~~~[m[K
+[69.996s] [ 88%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpService[0m
+[71.224s] [ 88%] Built target tcpService
+[71.274s] [ 89%] [32mBuilding CXX object example/CMakeFiles/example.dir/main.cpp.o[0m
+[72.389s] [ 91%] [32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/main.cpp.o[0m
+[72.624s] [ 92%] [32mBuilding CXX object tools/tcpImagesServer/CMakeFiles/tcpImagesServer.dir/moc_ImagesTcpServer.cpp.o[0m
+[75.105s] [ 93%] [32mBuilding CXX object app/CMakeFiles/find_object_app.dir/moc_TcpServerPool.cpp.o[0m
+[75.416s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[75.416s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:83:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.416s]    83 |         [01;35m[Ktime.start()[m[K;
+[75.416s]       |         [01;35m[K~~~~~~~~~~^~[m[K
+[75.417s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.417s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.418s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.418s]   235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+[75.419s]       |                                                       [01;36m[K^~~~~[m[K
+[75.419s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:90:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.419s]    90 |                 printf("Loading images: %d ms\n", [01;35m[Ktime.restart()[m[K);
+[75.419s]       |                                                   [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.419s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.419s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.420s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.420s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.420s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.423s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:117:109:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.423s]   117 |                 printf("Object: %d keypoints detected in %d ms\n", (int)objectKeypoints.size(), [01;35m[Ktime.restart()[m[K);
+[75.423s]       |                                                                                                 [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.423s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.423s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.424s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.424s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.424s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.424s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:119:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.424s]   119 |                 printf("Scene: %d keypoints detected in %d ms\n", (int)sceneKeypoints.size(), [01;35m[Ktime.restart()[m[K);
+[75.424s]       |                                                                                               [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.425s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.425s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.425s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.425s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.425s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.425s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:139:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.426s]   139 |                 printf("Object: %d descriptors extracted in %d ms\n", objectDescriptors.rows, [01;35m[Ktime.restart()[m[K);
+[75.426s]       |                                                                                               [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.426s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.426s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.426s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.426s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.426s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.426s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:141:105:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.426s]   141 |                 printf("Scene: %d descriptors extracted in %d ms\n", sceneDescriptors.rows, [01;35m[Ktime.restart()[m[K);
+[75.427s]       |                                                                                             [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.427s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.427s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.427s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.427s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.427s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.432s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:164:95:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.432s]   164 |                                 printf("Time creating FLANN LSH index = %d ms\n", [01;35m[Ktime.restart()[m[K);
+[75.432s]       |                                                                                   [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.432s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.433s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.433s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.433s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.433s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.433s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:183:98:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.434s]   183 |                                 printf("Time creating FLANN KDTree index = %d ms\n", [01;35m[Ktime.restart()[m[K);
+[75.434s]       |                                                                                      [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.434s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.434s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.434s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.434s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.434s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.434s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:189:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.435s]   189 |                 printf("Time nearest neighbor search = %d ms\n", [01;35m[Ktime.restart()[m[K);
+[75.435s]       |                                                                  [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.435s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.435s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.435s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.435s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.435s]       |                                                      [01;36m[K^~~~~~~[m[K
+[75.442s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:252:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.443s]   252 |                         [01;35m[Ktime.start()[m[K;
+[75.444s]       |                         [01;35m[K~~~~~~~~~~^~[m[K
+[75.444s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.444s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.444s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.444s]   235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+[75.444s]       |                                                       [01;36m[K^~~~~[m[K
+[75.445s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:258:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[75.445s]   258 |                         printf("Time finding homography = %d ms\n", [01;35m[Ktime.restart()[m[K);
+[75.445s]       |                                                                     [01;35m[K~~~~~~~~~~~~^~[m[K
+[75.445s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[75.445s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[75.446s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[75.446s]   236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+[75.446s]       |                                                      [01;36m[K^~~~~~~[m[K
+[76.757s] [ 94%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpImagesServer[0m
+[77.277s] [ 96%] [32m[1mLinking CXX executable ../../../bin/find_object-example[0m
+[77.357s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[77.358s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:248:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[77.358s]   248 |         [01;35m[Ktime.start()[m[K;
+[77.358s]       |         [01;35m[K~~~~~~~~~~^~[m[K
+[77.358s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[77.358s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:31[m[K:
+[77.358s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+[77.359s]   235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+[77.359s]       |                                                       [01;36m[K^~~~~[m[K
+[77.359s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:263:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[77.359s]   263 |                 printf("Response received! (%d ms)\n", [01;35m[Ktime.elapsed()[m[K);
+[77.359s]       |                                                        [01;35m[K~~~~~~~~~~~~^~[m[K
+[77.360s] In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+[77.360s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:31[m[K:
+[77.360s] [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+[77.361s]   237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+[77.361s]       |                                                      [01;36m[K^~~~~~~[m[K
+[78.871s] [ 96%] Built target tcpImagesServer
+[78.895s] [ 97%] [32mBuilding CXX object tools/tcpRequest/CMakeFiles/tcpRequest.dir/moc_TcpResponse.cpp.o[0m
+[78.917s] [ 97%] Built target example
+[83.022s] [ 98%] [32m[1mLinking CXX executable ../../../bin/find_object[0m
+[83.276s] [100%] [32m[1mLinking CXX executable ../../../../bin/find_object-tcpRequest[0m
+[84.368s] [100%] Built target find_object_app
+[84.523s] [100%] Built target tcpRequest
+[84.540s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d -- -j4 -l4
+[84.592s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d
+[84.604s] -- Install configuration: "Release"
+[84.605s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/find_object-0.7/FindObjectConfig.cmake
+[84.606s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/find_object-0.7/FindObjectConfigVersion.cmake
+[84.606s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/libfind_object.so
+[84.609s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7
+[84.610s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object
+[84.610s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/TcpServer.h
+[84.610s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/QtOpenCV.h
+[84.611s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/FindObject.h
+[84.611s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/FindObjectExp.h
+[84.612s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/DetectionInfo.h
+[84.612s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Settings.h
+[84.612s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite
+[84.613s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UDestroyer.h
+[84.613s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/ULogger.h
+[84.613s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UMutex.h
+[84.614s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/utilite/UWin32.h
+[84.614s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/JsonWriter.h
+[84.614s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/ObjWidget.h
+[84.615s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Camera.h
+[84.615s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Header.h
+[84.615s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/MainWindow.h
+[84.616s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/include/find_object-0.7/find_object/Version.h
+[84.616s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object
+[84.617s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object" to ""
+[84.618s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpClient
+[84.619s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpImagesServer
+[84.620s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpImagesServer" to ""
+[84.620s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpRequest
+[84.621s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpRequest" to ""
+[84.621s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpService
+[84.622s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-tcpService" to ""
+[84.623s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-example
+[84.623s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin/find_object-example" to ""
+[84.626s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d

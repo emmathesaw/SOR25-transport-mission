@@ -1,0 +1,242 @@
+[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  app/CMakeLists.txt:74 (QT5_USE_MODULES)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  tools/tcpClient/CMakeLists.txt:41 (QT5_USE_MODULES)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  tools/tcpImagesServer/CMakeLists.txt:41 (QT5_USE_MODULES)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  tools/tcpRequest/CMakeLists.txt:42 (QT5_USE_MODULES)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  tools/tcpService/CMakeLists.txt:29 (QT5_USE_MODULES)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  example/CMakeLists.txt:29 (QT5_USE_MODULES)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    AMENT_CMAKE_SYMLINK_INSTALL
+
+[0m
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:[m[K In static member function ‘[01m[Kstatic QHostAddress ImagesTcpServer::getHostAddress()[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:57:70:[m[K [01;35m[Kwarning: [m[K‘[01m[KQHostAddress& QHostAddress::operator=(const QString&)[m[K’ is deprecated: use = QHostAddress(string) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   57 |                         hostAddress = ipAddressesList.at(i).toString([01;35m[K)[m[K;
+      |                                                                      [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/qnetworkinterface.h:46[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/QNetworkInterface:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpImagesServer/ImagesTcpServer.cpp:32[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtNetwork/qhostaddress.h:110:19:[m[K [01;36m[Knote: [m[Kdeclared here
+  110 |     QHostAddress &[01;36m[Koperator[m[K=(const QString &address);
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:605:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  605 |                         [01;35m[Ktime.start()[m[K;
+      |                         [01;35m[K~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+      |                                                       [01;36m[K^~~~~[m[K
+In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39[m[K:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:611:114:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  611 |        UINFO("%d objects detected! (%d ms)", (int)info.objDetected_.size(), [01;35m[Ktime.elapsed()[m[K);
+      |                                                                             [01;35m[K~~~~~~~~~~~~^~[m[K
+
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KULOGGER_LOG[m[K’
+   52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                  [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KULOGGER_INFO[m[K’
+   61 | #define UINFO(...)    [01;36m[KULOGGER_INFO[m[K(__VA_ARGS__)
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:611:33:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KUINFO[m[K’
+  611 |                                 [01;36m[KUINFO[m[K("%d objects detected! (%d ms)", (int)info.objDetected_.size(), time.elapsed());
+      |                                 [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+      |                                                      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39[m[K:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:615:120:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  615 |  UINFO("Object %d detected! (%d ms)", (int)info.objDetected_.begin().key(), [01;35m[Ktime.elapsed()[m[K);
+      |                                                                             [01;35m[K~~~~~~~~~~~~^~[m[K
+
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KULOGGER_LOG[m[K’
+   52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                  [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KULOGGER_INFO[m[K’
+   61 | #define UINFO(...)    [01;36m[KULOGGER_INFO[m[K(__VA_ARGS__)
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:615:33:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KUINFO[m[K’
+  615 |                                 [01;36m[KUINFO[m[K("Object %d detected! (%d ms)", (int)info.objDetected_.begin().key(), time.elapsed());
+      |                                 [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+      |                                                      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:39[m[K:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:619:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  619 |                                 UINFO("No objects detected. (%d ms)", [01;35m[Ktime.elapsed()[m[K);
+      |                                                                       [01;35m[K~~~~~~~~~~~~^~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:52:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KULOGGER_LOG[m[K’
+   52 |  ULOGGER_LOG(level, ...) ULogger::write(level, __FILE__, __LINE__, __FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                  [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/utilite/ULogger.h:61:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KULOGGER_INFO[m[K’
+   61 | #define UINFO(...)    [01;36m[KULOGGER_INFO[m[K(__VA_ARGS__)
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:619:33:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KUINFO[m[K’
+  619 |                                 [01;36m[KUINFO[m[K("No objects detected. (%d ms)", time.elapsed());
+      |                                 [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/../include/find_object/MainWindow.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/app/main.cpp:33[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:83:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   83 |         [01;35m[Ktime.start()[m[K;
+      |         [01;35m[K~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+      |                                                       [01;36m[K^~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:90:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   90 |                 printf("Loading images: %d ms\n", [01;35m[Ktime.restart()[m[K);
+      |                                                   [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:117:109:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  117 |                 printf("Object: %d keypoints detected in %d ms\n", (int)objectKeypoints.size(), [01;35m[Ktime.restart()[m[K);
+      |                                                                                                 [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:119:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  119 |                 printf("Scene: %d keypoints detected in %d ms\n", (int)sceneKeypoints.size(), [01;35m[Ktime.restart()[m[K);
+      |                                                                                               [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:139:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  139 |                 printf("Object: %d descriptors extracted in %d ms\n", objectDescriptors.rows, [01;35m[Ktime.restart()[m[K);
+      |                                                                                               [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:141:105:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |                 printf("Scene: %d descriptors extracted in %d ms\n", sceneDescriptors.rows, [01;35m[Ktime.restart()[m[K);
+      |                                                                                             [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:164:95:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  164 |                                 printf("Time creating FLANN LSH index = %d ms\n", [01;35m[Ktime.restart()[m[K);
+      |                                                                                   [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:183:98:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  183 |                                 printf("Time creating FLANN KDTree index = %d ms\n", [01;35m[Ktime.restart()[m[K);
+      |                                                                                      [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:189:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  189 |                 printf("Time nearest neighbor search = %d ms\n", [01;35m[Ktime.restart()[m[K);
+      |                                                                  [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:252:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  252 |                         [01;35m[Ktime.start()[m[K;
+      |                         [01;35m[K~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+      |                                                       [01;36m[K^~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:258:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::restart()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  258 |                         printf("Time finding homography = %d ms\n", [01;35m[Ktime.restart()[m[K);
+      |                                                                     [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/example/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:236:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  236 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Krestart[m[K();
+      |                                                      [01;36m[K^~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:248:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid QTime::start()[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  248 |         [01;35m[Ktime.start()[m[K;
+      |         [01;35m[K~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:235:55:[m[K [01;36m[Knote: [m[Kdeclared here
+  235 |     QT_DEPRECATED_X("Use QElapsedTimer instead") void [01;36m[Kstart[m[K();
+      |                                                       [01;36m[K^~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:263:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint QTime::elapsed() const[m[K’ is deprecated: Use QElapsedTimer instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  263 |                 printf("Response received! (%d ms)\n", [01;35m[Ktime.elapsed()[m[K);
+      |                                                        [01;35m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/QTime:1[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/tools/tcpRequest/main.cpp:31[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatetime.h:237:54:[m[K [01;36m[Knote: [m[Kdeclared here
+  237 |     QT_DEPRECATED_X("Use QElapsedTimer instead") int [01;36m[Kelapsed[m[K() const;
+      |                                                      [01;36m[K^~~~~~~[m[K

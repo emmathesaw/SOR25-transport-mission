@@ -1,0 +1,129 @@
+[1.610s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.610s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fff2f7d11b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fff2fa730d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fff2fa730d0>>, mixin_verb=('build',))
+[1.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.700s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.701s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.702s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.758s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'find_object_2d'
+[1.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'cmake_args' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'cmake_target' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'cmake_clean_cache' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'cmake_clean_first' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'cmake_force_configure' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'ament_cmake_args' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'catkin_cmake_args' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'find_object_2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.865s] DEBUG:colcon.colcon_core.verb:Building package 'find_object_2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d', 'merge_install': False, 'path': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object', 'symlink_install': True, 'test_result_base': None}
+[1.882s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.902s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object' with build type 'ament_cmake'
+[1.903s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object'
+[1.927s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d
+[3.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d
+[3.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d -- -j4 -l4
+[86.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d -- -j4 -l4
+[86.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d
+[86.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(find_object_2d)
+[86.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/laserscan_to_point_publisher:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/build/find_object_2d
+[86.559s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d' for CMake module files
+[86.559s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d' for CMake config files
+[86.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'cmake_prefix_path')
+[86.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/cmake_prefix_path.ps1'
+[86.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/cmake_prefix_path.dsv'
+[86.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/cmake_prefix_path.sh'
+[86.583s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib'
+[86.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'ld_library_path_lib')
+[86.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/ld_library_path_lib.ps1'
+[86.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/ld_library_path_lib.dsv'
+[86.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/ld_library_path_lib.sh'
+[86.604s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin'
+[86.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'path')
+[86.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/path.ps1'
+[86.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/path.dsv'
+[86.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/path.sh'
+[86.625s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/pkgconfig/find_object_2d.pc'
+[86.629s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/python3.10/site-packages'
+[86.630s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin'
+[86.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'pythonscriptspath')
+[86.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/pythonscriptspath.ps1'
+[86.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/pythonscriptspath.dsv'
+[86.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/pythonscriptspath.sh'
+[86.670s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.ps1'
+[86.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.dsv'
+[86.672s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.sh'
+[86.674s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.bash'
+[86.675s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.zsh'
+[86.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/colcon-core/packages/find_object_2d)
+[86.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(find_object_2d)
+[86.753s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d' for CMake module files
+[86.754s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d' for CMake config files
+[86.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'cmake_prefix_path')
+[86.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/cmake_prefix_path.ps1'
+[86.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/cmake_prefix_path.dsv'
+[86.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/cmake_prefix_path.sh'
+[86.776s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib'
+[86.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'ld_library_path_lib')
+[86.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/ld_library_path_lib.ps1'
+[86.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/ld_library_path_lib.dsv'
+[86.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/ld_library_path_lib.sh'
+[86.796s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin'
+[86.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'path')
+[86.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/path.ps1'
+[86.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/path.dsv'
+[86.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/path.sh'
+[86.817s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/pkgconfig/find_object_2d.pc'
+[86.817s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/lib/python3.10/site-packages'
+[86.817s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/bin'
+[86.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_object_2d', 'pythonscriptspath')
+[86.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/pythonscriptspath.ps1'
+[86.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/pythonscriptspath.dsv'
+[86.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/hook/pythonscriptspath.sh'
+[86.857s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.ps1'
+[86.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.dsv'
+[86.859s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.sh'
+[86.859s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.bash'
+[86.860s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/find_object_2d/package.zsh'
+[86.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/find_object_2d/share/colcon-core/packages/find_object_2d)
+[86.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[86.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[86.863s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[86.863s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[86.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[86.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[86.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[86.905s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[86.907s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[86.907s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[86.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/local_setup.ps1'
+[86.929s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/_local_setup_util_ps1.py'
+[86.931s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/setup.ps1'
+[86.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/local_setup.sh'
+[86.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/_local_setup_util_sh.py'
+[86.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/setup.sh'
+[86.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/local_setup.bash'
+[86.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/setup.bash'
+[87.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/local_setup.zsh'
+[87.001s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/find-object/install/setup.zsh'
